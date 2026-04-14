@@ -196,9 +196,9 @@ Studying Interaction Design at QUT — UX/UI principles, systems thinking, and h
 |-------|-----------|------|
 | 🏆 Executive Dean's Commendation for Academic Excellence | QUT — Faculty of Science | Jul 2024 |
 | 🎖️ iLR Award *(Imagine, Listen, Respect)* — awarded annually to one graduating student | Coomera Anglican College | Nov 2023 |
-| 🥈 Duke of Edinburgh Silver Award | Duke of Edinburgh's International Award | Nov 2023 |
-| 🥉 Duke of Edinburgh Bronze Award | Duke of Edinburgh's International Award | — |
-| 🎵 AHEP Program — Vocal Ensemble | Queensland Griffith Conservatorium of Music | — |
+| 🥈 Duke of Edinburgh Silver Award | Duke of Edinburgh's International Award | 2023 |
+| 🥉 Duke of Edinburgh Bronze Award | Duke of Edinburgh's International Award | 2021 |
+| 🎵 AHEP Program — Vocal Ensemble | Queensland Griffith Conservatorium of Music | 2023 |
 
 ---
 
