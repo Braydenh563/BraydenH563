@@ -1,4 +1,4 @@
-<div align="center">
+#<div align="center">
 
 # Brayden Hoyle
 
@@ -218,5 +218,5 @@ Set up new student laptops via Windows Autopilot; provided general IT support.
 
 [![LinkedIn](https://img.shields.io/badge/Let's%20connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-hoyle-341106240)
 
-*This page was styler with the help of Claude by Anthropic*
+*This page was styled with the help of Claude by Anthropic*
 </div>
