@@ -4,7 +4,7 @@
 
 **CS × Interaction Design · QUT · South East Queensland**
 
-*Building things that are technically interesting and thoughtfully crafted — at the intersection of AI, software, and human-centred design.*
+*Building things that are technically interesting and thoughtfully crafted - at the intersection of AI, software, and human-centred design.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Brayden%20Hoyle-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-hoyle-341106240)
 [![Instagram](https://img.shields.io/badge/Photography-@braydenhphotography-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/braydenhphotography/)
@@ -14,13 +14,13 @@
 
 ---
 
-> 🏆 **QUT Executive Dean's Commendation for Academic Excellence** — Faculty of Science, July 2024. Awarded for achieving a GPA of 6.5+ across Year 1 Semester 1.
+> 🏆 **QUT Executive Dean's Commendation for Academic Excellence** - Faculty of Science, July 2024. Awarded for achieving a GPA of 6.5+ across Year 1 Semester 1.
 
 ---
 
 ## About
 
-I'm a third-year Computer Science student concurrently studying Interaction Design at QUT — two disciplines that push and pull each other in ways I find genuinely energising. On the CS side, I'm drawn to AI/ML systems, fine-tuning pipelines, and software architecture. On the design side, I care about what it actually feels like to use the things I build.
+I'm a third-year Computer Science student concurrently studying Interaction Design at QUT - two disciplines that push and pull each other in ways I find genuinely energising. On the CS side, I'm drawn to AI/ML systems, fine-tuning pipelines, and software architecture. On the design side, I care about what it actually feels like to use the things I build.
 
 Most of my personal projects live somewhere in between: local-first AI tools, creative coding experiments, and systems designed to remove friction for non-technical users.
 
@@ -30,7 +30,7 @@ Open to internships and collaborations in **AI, software development, and design
 
 ## 🎓 Education
 
-### Queensland University of Technology — 2024–2027
+### Queensland University of Technology - 2024–2027
 **Bachelor of Information Technology (Computer Science)**
 **Bachelor of Design (Interaction Design)**
 
@@ -60,20 +60,20 @@ Open to internships and collaborations in **AI, software development, and design
 
 </details>
 
-### Coomera Anglican College — 2009–2023
+### Coomera Anglican College - 2009–2023
 **Year 12 Graduate**
 
 Mathematical Methods · General English · Digital Solutions · Design · Film, TV & New Media · Chemistry
 
-Produced films and digital applications through Film/TV/New Media and Digital Solutions — where a genuine interest in making things started.
+Produced films and digital applications through Film/TV/New Media and Digital Solutions - where a genuine interest in making things started.
 
 ---
 
 ## 🚀 Projects
 
-### 🤖 [Astraea — Prompt Architect](https://chatgpt.com/g/g-68ad0fff3c108191a9b9b05cd2e20584-astraea-prompt-architect)
+### 🤖 [Astraea - Prompt Architect](https://chatgpt.com/g/g-68ad0fff3c108191a9b9b05cd2e20584-astraea-prompt-architect)
 
-A specialised AI agent that turns rough ideas into production-ready prompts for text, image, video, and code — routing structured output to ChatGPT, Claude, Gemini, Midjourney, DALL·E, Sora, and more.
+A specialised AI agent that turns rough ideas into production-ready prompts for text, image, video, and code - routing structured output to ChatGPT, Claude, Gemini, Midjourney, DALL·E, Sora, and more.
 
 <details>
 <summary>System design & fine-tuning details</summary>
@@ -87,7 +87,7 @@ A specialised AI agent that turns rough ideas into production-ready prompts for 
 **Fine-Tuning Pipeline**
 - Base model: `Meta-Llama-3.1-8B-Instruct` (4-bit quantised via [Unsloth](https://github.com/unslothai/unsloth))
 - Trained with HuggingFace TRL `SFTTrainer` on Google Colab (NVIDIA A100)
-- LoRA: `r=64`, `lora_alpha=128`, RSLoRA — targeting `q/k/v/o/gate/up/down_proj`
+- LoRA: `r=64`, `lora_alpha=128`, RSLoRA - targeting `q/k/v/o/gate/up/down_proj`
 - v10 (latest): ~2,693 training examples, refined using Claude Sonnet 4.5 / 4.6
 - Exported as GGUF `q4_k_m` for local inference via llama.cpp, Ollama, Open WebUI, Jan
 - Accompanied by a Python backend and HTML/CSS frontend (built as a hands-on learning exercise)
@@ -98,7 +98,7 @@ A specialised AI agent that turns rough ideas into production-ready prompts for 
 
 ### 🧠 MemoryMap AI *(In Development)*
 
-A local-first AI application with models bundled directly — no Ollama, LMStudio, or external setup required for end users.
+A local-first AI application with models bundled directly - no Ollama, LMStudio, or external setup required for end users.
 
 - Researching RAG vs. Text-to-SQL for database access architecture
 - Exploring fine-tuned models for specialised data retrieval
@@ -117,14 +117,14 @@ See the linked repository in the subtitle above to view online or download the p
 
 ### 🎨 [BH Creative Coding](https://github.com/Braydenh563/BH-CreativeCoding)
 
-Generative and interactive visual experiments built with P5.js — exploring animation, colour, form, and interactivity. Feeding into a planned personal portfolio website.
+Generative and interactive visual experiments built with P5.js - exploring animation, colour, form, and interactivity. Feeding into a planned personal portfolio website.
 
 ---
 
-### 🗞️ News Accuracy Checker *(Upcoming — University)*
+### 🗞️ News Accuracy Checker *(Upcoming - University)*
 Python-based application for evaluating the factual accuracy of news articles.
 
-### 🏥 Hospital Management System *(Upcoming — University)*
+### 🏥 Hospital Management System *(Upcoming - University)*
 C# system covering patient management, scheduling, and administrative workflows.
 
 ### 🌐 Personal Portfolio *(Planned)*
@@ -176,7 +176,7 @@ Sorting & search algorithms · Hash tables & data structures · Object-relationa
 
 ## 🎨 Design & Creative Work
 
-Studying Interaction Design at QUT — UX/UI principles, systems thinking, and human-centred design. Design experience from high school runs deeper than it sounds: Digital Solutions and Design subjects meant shipping actual things, not just sketching them.
+Studying Interaction Design at QUT - UX/UI principles, systems thinking, and human-centred design. Design experience from high school runs deeper than it sounds: Digital Solutions and Design subjects meant shipping actual things, not just sketching them.
 
 **Adobe Creative Suite**
 
@@ -185,14 +185,14 @@ Studying Interaction Design at QUT — UX/UI principles, systems thinking, and h
 ![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white)
 ![InDesign](https://img.shields.io/badge/InDesign-FF3366?style=flat-square&logo=adobeindesign&logoColor=white)
 
-**Photography** — Canon EOS R50. Landscape, street, portrait, and creative work.
+**Photography** - Canon EOS R50. Landscape, street, portrait, and creative work.
 [![Instagram](https://img.shields.io/badge/@braydenhphotography-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/braydenhphotography/)
 
 ---
 
 ## 🔐 Cyber Security
 
-- Completed a national **Cyber Security Work Experience Program** (1 week, 2023) — selected alongside participants from across Australia
+- Completed a national **Cyber Security Work Experience Program** (1 week, 2023) - selected alongside participants from across Australia
 - Studied **IFB240 Cyber Security** at QUT
 - Member: **Australian Information Security Association (AISA)**
 - Member: **Australian Computer Society (ACS)**
@@ -203,20 +203,20 @@ Studying Interaction Design at QUT — UX/UI principles, systems thinking, and h
 
 | Award | Issued by | Date |
 |-------|-----------|------|
-| 🏆 Executive Dean's Commendation for Academic Excellence | QUT — Faculty of Science | Jul 2024 |
-| 🎖️ iLR Award *(Imagine, Listen, Respect)* — awarded annually to one graduating student | Coomera Anglican College | Nov 2023 |
+| 🏆 Executive Dean's Commendation for Academic Excellence | QUT - Faculty of Science | Jul 2024 |
+| 🎖️ iLR Award *(Imagine, Listen, Respect)* - awarded annually to one graduating student | Coomera Anglican College | Nov 2023 |
 | 🥈 Duke of Edinburgh Silver Award | Duke of Edinburgh's International Award | 2023 |
 | 🥉 Duke of Edinburgh Bronze Award | Duke of Edinburgh's International Award | 2021 |
-| 🎵 AHEP Program — Vocal Ensemble | Queensland Griffith Conservatorium of Music | 2023 |
+| 🎵 AHEP Program - Vocal Ensemble | Queensland Griffith Conservatorium of Music | 2023 |
 
 ---
 
 ## 💼 Experience
 
-**Associate** — Topgolf Gold Coast *(Jun 2024 – Present)*
+**Associate** - Topgolf Gold Coast *(Jun 2024 – Present)*
 Bay host role focused on delivering memorable guest experiences.
 
-**Student IT Assistant** — Coomera Anglican College IT Department *(Dec 2022)*
+**Student IT Assistant** - Coomera Anglican College IT Department *(Dec 2022)*
 Set up new student laptops via Windows Autopilot; provided general IT support.
 
 ---
