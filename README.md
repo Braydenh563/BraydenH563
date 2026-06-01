@@ -24,7 +24,7 @@ I'm a third-year Computer Science student concurrently studying Interaction Desi
 
 Most of my personal projects live somewhere in between: local-first AI tools, creative coding experiments, and systems designed to remove friction for non-technical users.
 
-Open to internships and collaborations in **AI, software development, and design**.
+Open to internships and collaborations in **UI/UX Design, AI, UI development for games & films, creative digital development in a team environment**.
 
 ---
 
