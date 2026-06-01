@@ -30,6 +30,21 @@ Open to internships and collaborations in **UI/UX Design, AI, UI development for
 
 ## 🚀 Projects
 
+### 🧬 [HELIXLABS - A Microbiome Simulation](https://github.com/Braydenh563/HELIXLABS)
+Generative and interactive virtual microbiome simulator built with P5.js. Build for the final assessment in my DXB211 Creative Coding unit at QUT, this project was not just another assessmet task but became a personal passion and one of my largest projects to date. I thank Jared Donovan for his continuous guidance thoughout this unit.
+
+Upon the completion of this unit, this project will be shown in a Creative Coding exhibition, hosted by QUT, located at The Lanes (California Lane) in Fortitude Valley, Brisbane, QLD, Australia in July 2026.
+
+See the linked repository in the subtitle above to view online or download the packaged application installer. 
+
+---
+
+### 🎨 [BH Creative Coding](https://github.com/Braydenh563/BH-CreativeCoding)
+
+Generative and interactive visual experiments built with P5.js - exploring animation, colour, form, and interactivity. Feeding into a planned personal portfolio website.
+
+---
+
 ### 🤖 [Astraea - Prompt Architect](https://chatgpt.com/g/g-68ad0fff3c108191a9b9b05cd2e20584-astraea-prompt-architect)
 
 A specialised AI agent that turns rough ideas into production-ready prompts for text, image, video, and code - routing structured output to ChatGPT, Claude, Gemini, Midjourney, DALL·E, Sora, and more.
@@ -51,22 +66,10 @@ A specialised AI agent that turns rough ideas into production-ready prompts for 
 - Exported as GGUF `q4_k_m` for local inference via llama.cpp, Ollama, Open WebUI, Jan
 - Accompanied by a Python backend and HTML/CSS frontend (built as a hands-on learning exercise)
 
+**Experimentation**
+- Experimentally vibe-coded an architect-themed UI web chat interface, accompanied by a makeshift uvicorn backend run in a local `venv` virtual environment (will be properly developed and expanded once I improve my knowledge in web design and backend integration). 
+
 </details>
-
----
-
-### 🧬 [HELIXLABS - A Microbiome Simulation](https://github.com/Braydenh563/HELIXLABS)
-Generative and interactive virtual microbiome simulator built with P5.js. Build for the final assessment in my DXB211 Creative Coding unit at QUT, this project was not just another assessmet task but became a personal passion and one of my largest projects to date. I thank Jared Donovan for his continuous guidance thoughout this unit.
-
-Upon the completion of this unit, this project will be shown in a Creative Coding exhibition, hosted by QUT, located at The Lanes (California Lane) in Fortitude Valley, Brisbane, QLD, Australia in July 2026.
-
-See the linked repository in the subtitle above to view online or download the packaged application installer. 
-
----
-
-### 🎨 [BH Creative Coding](https://github.com/Braydenh563/BH-CreativeCoding)
-
-Generative and interactive visual experiments built with P5.js - exploring animation, colour, form, and interactivity. Feeding into a planned personal portfolio website.
 
 ---
 
