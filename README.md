@@ -166,7 +166,8 @@ Studying Interaction Design at QUT - UX/UI principles, systems thinking, and hum
 
 ### Queensland University of Technology - 2024–2027
 **Bachelor of Information Technology (Computer Science) / Bachelor of Design (Interaction Design)**
-*Degree Code: ID15*
+
+**Degree Code**: *ID15*
 
 <details>
 <summary>View full coursework</summary>
