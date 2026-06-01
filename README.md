@@ -96,17 +96,7 @@ A specialised AI agent that turns rough ideas into production-ready prompts for 
 
 ---
 
-### 🧠 MemoryMap AI *(In Development)*
-
-A local-first AI application with models bundled directly - no Ollama, LMStudio, or external setup required for end users.
-
-- Researching RAG vs. Text-to-SQL for database access architecture
-- Exploring fine-tuned models for specialised data retrieval
-- Designing an interface that removes AI configuration friction entirely for non-technical users
-
----
-
-### 🧬 [HELIXLABS](https://github.com/Braydenh563/HELIXLABS)
+### 🧬 [HELIXLABS - A Microbiome Simulation](https://github.com/Braydenh563/HELIXLABS)
 Generative and interactive virtual microbiome simulator built with P5.js. Build for the final assessment in my DXB211 Creative Coding unit at QUT, this project was not just another assessmet task but became a personal passion and one of my largest projects to date. I thank Jared Donovan for his continuous guidance thoughout this unit.
 
 Upon the completion of this unit, this project will be shown in a Creative Coding exhibition, hosted by QUT, located at The Lanes (California Lane) in Fortitude Valley, Brisbane, QLD, Australia in July 2026.
@@ -118,6 +108,16 @@ See the linked repository in the subtitle above to view online or download the p
 ### 🎨 [BH Creative Coding](https://github.com/Braydenh563/BH-CreativeCoding)
 
 Generative and interactive visual experiments built with P5.js - exploring animation, colour, form, and interactivity. Feeding into a planned personal portfolio website.
+
+---
+
+### 🧠 MemoryMap AI *(In Development)*
+
+A local-first AI application with models bundled directly - no Ollama, LMStudio, or external setup required for end users.
+
+- Researching RAG vs. Text-to-SQL for database access architecture
+- Exploring fine-tuned models for specialised data retrieval
+- Designing an interface that removes AI configuration friction entirely for non-technical users
 
 ---
 
