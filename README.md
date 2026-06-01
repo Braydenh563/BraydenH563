@@ -187,10 +187,14 @@ Studying Interaction Design at QUT - UX/UI principles, systems thinking, and hum
 | 2 | 1 | CAB302 | Software Development |
 | 2 | 1 | QUT008 | Thinking Like a Computer |
 | 2 | 1 | QUT001 | Artificial Intelligence in the Real World |
-| 2 | 2 | CAB202 | Microcontrollers & Digital Systems |
+| 2 | 2 | EGB202 | Microcontrollers & Digital Systems |
 | 2 | 2 | DYB122 | Design Visualisations |
 | 2 | 2 | DYB123 | Emerging Design Technologies |
 | 2 | 2 | DYB124 | Design Consequences |
+| 3 | 1 | CAB301 | Algorithms & Complexity |
+| 3 | 1 | DXB211 | Creative Coding |
+| 3 | 1 | DYB121 | Introduction to Design Fabrication |
+| 3 | 1 | DYB101 | Impact Lab: Place and Context |
 
 </details>
 
