@@ -28,47 +28,6 @@ Open to internships and collaborations in **AI, software development, and design
 
 ---
 
-## 🎓 Education
-
-### Queensland University of Technology - 2024–2027
-**Bachelor of Information Technology (Computer Science)**
-**Bachelor of Design (Interaction Design)**
-
-<details>
-<summary>View full coursework</summary>
-
-| Year | Sem | Code | Unit |
-|:----:|:---:|------|------|
-| 1 | 1 | IFB102 | Introduction to Computer Systems |
-| 1 | 1 | IFB103 | IT Systems Design |
-| 1 | 1 | IFB104 | Building IT Systems |
-| 1 | 1 | IFB105 | Database Management |
-| 1 | 2 | CAB201 | Programming Principles |
-| 1 | 2 | CAB222 | Networks |
-| 1 | 2 | IFB240 | Cyber Security |
-| 1 | 2 | QUT009 | Data Science for Society |
-| 1 | 2 | QUT010 | People with Robots |
-| 2 | 1 | IFB201 | Introduction to Enterprise Systems |
-| 2 | 1 | CAB203 | Discrete Structures |
-| 2 | 1 | CAB302 | Software Development |
-| 2 | 1 | QUT008 | Thinking Like a Computer |
-| 2 | 1 | QUT001 | Artificial Intelligence in the Real World |
-| 2 | 2 | CAB202 | Microcontrollers & Digital Systems |
-| 2 | 2 | DYB122 | Design Visualisations |
-| 2 | 2 | DYB123 | Emerging Design Technologies |
-| 2 | 2 | DYB124 | Design Consequences |
-
-</details>
-
-### Coomera Anglican College - 2009–2023
-**Year 12 Graduate**
-
-Mathematical Methods · General English · Digital Solutions · Design · Film, TV & New Media · Chemistry
-
-Produced films and digital applications through Film/TV/New Media and Digital Solutions - where a genuine interest in making things started.
-
----
-
 ## 🚀 Projects
 
 ### 🤖 [Astraea - Prompt Architect](https://chatgpt.com/g/g-68ad0fff3c108191a9b9b05cd2e20584-astraea-prompt-architect)
@@ -191,12 +150,53 @@ Studying Interaction Design at QUT - UX/UI principles, systems thinking, and hum
 
 ---
 
-## 🔐 Cyber Security
+## 🔐 Memberships & Cyber Security Experience
 
 - Completed a national **Cyber Security Work Experience Program** (1 week, 2023) - selected alongside participants from across Australia
 - Studied **IFB240 Cyber Security** at QUT
 - Member: **Australian Information Security Association (AISA)**
 - Member: **Australian Computer Society (ACS)**
+
+---
+
+## 🎓 Education
+
+### Queensland University of Technology - 2024–2027
+**Bachelor of Information Technology (Computer Science)**
+**Bachelor of Design (Interaction Design)**
+
+<details>
+<summary>View full coursework</summary>
+
+| Year | Sem | Code | Unit |
+|:----:|:---:|------|------|
+| 1 | 1 | IFB102 | Introduction to Computer Systems |
+| 1 | 1 | IFB103 | IT Systems Design |
+| 1 | 1 | IFB104 | Building IT Systems |
+| 1 | 1 | IFB105 | Database Management |
+| 1 | 2 | CAB201 | Programming Principles |
+| 1 | 2 | CAB222 | Networks |
+| 1 | 2 | IFB240 | Cyber Security |
+| 1 | 2 | QUT009 | Data Science for Society |
+| 1 | 2 | QUT010 | People with Robots |
+| 2 | 1 | IFB201 | Introduction to Enterprise Systems |
+| 2 | 1 | CAB203 | Discrete Structures |
+| 2 | 1 | CAB302 | Software Development |
+| 2 | 1 | QUT008 | Thinking Like a Computer |
+| 2 | 1 | QUT001 | Artificial Intelligence in the Real World |
+| 2 | 2 | CAB202 | Microcontrollers & Digital Systems |
+| 2 | 2 | DYB122 | Design Visualisations |
+| 2 | 2 | DYB123 | Emerging Design Technologies |
+| 2 | 2 | DYB124 | Design Consequences |
+
+</details>
+
+### Coomera Anglican College - 2009–2023
+**Year 12 Graduate**
+
+Mathematical Methods · General English · Digital Solutions · Design · Film, TV & New Media · Chemistry
+
+Produced films and digital applications through Film/TV/New Media and Digital Solutions - where a genuine interest in making things started.
 
 ---
 
