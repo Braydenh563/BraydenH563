@@ -1,8 +1,8 @@
-#<div align="center">
+<div align="center">
 
 # Brayden Hoyle
 
-**CS × Interaction Design · QUT · South East Queensland**
+**CS × Interaction Design · QUT · South East Queensland, Australia**
 
 *Building things that are technically interesting and thoughtfully crafted - at the intersection of AI, software, and human-centred design.*
 
