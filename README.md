@@ -75,7 +75,7 @@ A specialised AI agent that turns rough ideas into production-ready prompts for 
 
 ### 🧠 MemoryMap AI *(In Development)*
 
-A local-first AI application with models bundled directly - no Ollama, LMStudio, or external setup required for end users.
+A local-first AI managed notebook application compatible with local models via Ollama or LMStudio etc.
 
 - Researching RAG vs. Text-to-SQL for database access architecture
 - Exploring fine-tuned models for specialised data retrieval
