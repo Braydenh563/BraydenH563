@@ -212,11 +212,10 @@ Produced films and digital applications through Film/TV/New Media and Digital So
 
 | Award | Issued by | Date |
 |-------|-----------|------|
+| 🏆 DXB211 Creative Coding Tutor's Prize | QUT - Bachelor of Interaction Design | Jul 2026 |
 | 🏆 Executive Dean's Commendation for Academic Excellence | QUT - Faculty of Science | Jul 2024 |
-| 🎖️ iLR Award *(Imagine, Listen, Respect)* - awarded annually to one graduating student | Coomera Anglican College | Nov 2023 |
 | 🥈 Duke of Edinburgh Silver Award | Duke of Edinburgh's International Award | 2023 |
 | 🥉 Duke of Edinburgh Bronze Award | Duke of Edinburgh's International Award | 2021 |
-| 🎵 AHEP Program - Vocal Ensemble | Queensland Griffith Conservatorium of Music | 2023 |
 
 ---
 
