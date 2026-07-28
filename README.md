@@ -12,9 +12,11 @@
 
 ---
 
-I build AI-adjacent things — mostly local-first tools, generative experiments, and fine-tuned models. Third-year CS + Interaction Design student at QUT, where I try to make sure software I write is as considered to use as it is technically interesting to build.
+I build software that sits at the intersection of code and design — from interactive creative-coding projects to practical tools and experiments, always with an eye on how something actually feels to use.
 
-Most of what lives here sits at the intersection of AI/ML systems and human-facing design: things built to actually be used, not just to demonstrate that they can exist.
+Third-year CS + Interaction Design student at QUT, where I try to make sure the software I write is as considered to use as it is technically interesting to build.
+
+Most of what lives here spans creative coding, applied AI, and interface-driven projects: things built to actually be used, not just to demonstrate that they can exist.
 
 ---
 
