@@ -2,175 +2,151 @@
 
 # Brayden Hoyle
 
-**CS × Interaction Design · QUT · South East Queensland, Australia**
-
-*Building things that are technically interesting and thoughtfully crafted - at the intersection of AI, software, and human-centred design.*
+**CS × Interaction Design · QUT · Brisbane, Australia**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Brayden%20Hoyle-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-hoyle-341106240)
 [![Instagram](https://img.shields.io/badge/Photography-@braydenhphotography-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/braydenhphotography/)
-[![GitHub](https://img.shields.io/badge/GitHub-Braydenh563-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Braydenh563)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-braydenh563-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/braydenh563)
 
 </div>
 
 ---
 
-> 🏆 **QUT Executive Dean's Commendation for Academic Excellence** - Faculty of Science, July 2024. Awarded for achieving a GPA of 6.5+ across Year 1 Semester 1.
+I build AI-adjacent things — mostly local-first tools, generative experiments, and fine-tuned models. Third-year CS + Interaction Design student at QUT, where I try to make sure software I write is as considered to use as it is technically interesting to build.
 
----
-
-## About
-
-I'm a third-year Computer Science student concurrently studying Interaction Design at QUT - two disciplines that push and pull each other in ways I find genuinely energising. On the CS side, I'm drawn to AI/ML systems, fine-tuning pipelines, and software architecture. On the design side, I care about what it actually feels like to use the things I build.
-
-Most of my personal projects live somewhere in between: local-first AI tools, creative coding experiments, and systems designed to remove friction for non-technical users.
-
-Open to internships and collaborations in **UI/UX Design, AI, UI development for games & films, creative digital development in a team environment**.
+Most of what lives here sits at the intersection of AI/ML systems and human-facing design: things built to actually be used, not just to demonstrate that they can exist.
 
 ---
 
 ## 🚀 Projects
 
-### 🧬 [HELIXLABS - A Microbiome Simulation](https://github.com/Braydenh563/HELIXLABS)
-Generative and interactive virtual microbiome simulator built with P5.js. Build for the final assessment in my DXB211 Creative Coding unit at QUT, this project was not just another assessmet task but became a personal passion and one of my largest projects to date. I thank Jared Donovan for his continuous guidance thoughout this unit.
+### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) *(Active — Experimental)*
 
-Upon the completion of this unit, this project will be shown in a Creative Coding exhibition, hosted by QUT, located at The Lanes (California Lane) in Fortitude Valley, Brisbane, QLD, Australia in July 2026.
+A local-first AI-powered notebook application. You type a thought; a local LLM files it. You ask a question in plain English; you get back a conversational answer *and* the raw notes that back it up — side by side, so you can actually verify it.
 
-See the linked repository in the subtitle above to view online or download the packaged application installer. 
+100% offline. No account, no cloud, no telemetry. Your notes live in a plain SQLite file on your own machine.
+
+> **Experimental proof-of-concept** — largely vibe-coded in collaboration with Claude as a way to rapidly explore what a genuinely private, local-AI-native notebook could feel like. Architectural decisions are real and deliberate; the speed of development was not.
+
+<details>
+<summary>What's inside</summary>
+
+**Stack:** FastAPI backend · Vanilla JS frontend (no framework, no build step) · SQLite · Ollama integration · `BAAI/bge-small-en-v1.5` for local semantic search
+
+**Features across 6 tabs:**
+- **Dashboard** — capture streak, AI weekly digest, activity heatmap, focus timer, rearrangeable layout
+- **Notes** — auto-filing by meaning, tags, pins, threads, attachments, private encrypted notes, revision history, advanced search operators (`tag:`, `cat:`, `is:pinned`, `-exclude`, `"exact phrase"`)
+- **Chat** — conversational access to your notebook with Agent mode (28 tools: search, create, link, tag, remind, open pages); full tool call timeline
+- **Graph** — force-directed knowledge map; click to edit, link, or ask for AI-suggested connections
+- **Documents** — Markdown editor with live preview, PDF export, AI-suggested edits shown as diffs you accept/reject
+- **Reminders** — natural language scheduling ("call mum tomorrow evening")
+
+**Also:** command palette (`Ctrl/Cmd+K`), local Whisper dictation, read-aloud, opt-in web search with SearXNG support, 12 themes × 8 colour palettes, daily local backups, PWA, desktop window mode
+
+**Privacy:** server binds to localhost, no CDN assets, web search is opt-in and never sends notes — only the query words. Private notes are encrypted at rest.
+
+**Tests:** 547 pytest tests; every AI call faked — runs fully offline with no GPU or model.
+
+</details>
+
+**Models that work well with it** — pulled via `ollama pull <model>`:
+`llama3.2` · `granite4.1:3b` · `qwen3.5:2b` · `gemma4:e2b` · `lfm2.5`
+
+---
+
+### 🧬 [HELIXLABS - Microbiome Simulation](https://github.com/Braydenh563/HELIXLABS)
+
+Generative and interactive virtual microbiome simulator built with P5.js. Final assessment for DXB211 Creative Coding at QUT — ended up being one of my largest projects to date. Exhibited at The Lanes, Fortitude Valley, Brisbane in July 2026 as part of QUT's Creative Coding exhibition.
 
 ---
 
 ### 🎨 [BH Creative Coding](https://github.com/Braydenh563/BH-CreativeCoding)
 
-Generative and interactive visual experiments built with P5.js - exploring animation, colour, form, and interactivity. Feeding into a planned personal portfolio website.
+Generative and interactive visual experiments built with P5.js — animation, colour, form, and interactivity. Feeding into a planned personal portfolio site.
 
 ---
 
 ### 🤖 [Astraea - Prompt Architect](https://chatgpt.com/g/g-68ad0fff3c108191a9b9b05cd2e20584-astraea-prompt-architect)
 
-A specialised AI agent that turns rough ideas into production-ready prompts for text, image, video, and code - routing structured output to ChatGPT, Claude, Gemini, Midjourney, DALL·E, Sora, and more.
+A specialised AI agent for turning rough ideas into production-ready prompts — routing structured output across ChatGPT, Claude, Gemini, Midjourney, DALL·E, Sora, and more.
 
 <details>
-<summary>System design & fine-tuning details</summary>
+<summary>Fine-tuning & system design details</summary>
 
 **System Design**
-- Three operating modes: `DUAL` (quick answer + full prompt), `PROMPT-ONLY`, `ADVICE-ONLY`
+- Three modes: `DUAL` · `PROMPT-ONLY` · `ADVICE-ONLY`
 - Three complexity tiers: `BASIC` · `STANDARD` · `EXPERT`
 - 4D build process: Deconstruct → Diagnose → Develop → Deliver
-- 7D rewrite framework, built-in Prompt Linter, Mini QA Gate, Assumption Ledger, and output Scorecard
+- 7D rewrite framework, Prompt Linter, Mini QA Gate, Assumption Ledger, output Scorecard
 
-**Fine-Tuning Pipeline**
-- Base model: `Meta-Llama-3.1-8B-Instruct` (4-bit quantised via [Unsloth](https://github.com/unslothai/unsloth))
+**Fine-Tuning**
+- Base: `Meta-Llama-3.1-8B-Instruct` (4-bit quantised via [Unsloth](https://github.com/unslothai/unsloth))
 - Trained with HuggingFace TRL `SFTTrainer` on Google Colab (NVIDIA A100)
-- LoRA: `r=64`, `lora_alpha=128`, RSLoRA - targeting `q/k/v/o/gate/up/down_proj`
-- v10 (latest): ~2,693 training examples, refined using Claude Sonnet 4.5 / 4.6
-- Exported as GGUF `q4_k_m` for local inference via llama.cpp, Ollama, Open WebUI, Jan
-- Accompanied by a Python backend and HTML/CSS frontend (built as a hands-on learning exercise)
-
-**Experimentation**
-- Experimentally vibe-coded an architect-themed UI web chat interface, accompanied by a makeshift uvicorn backend run in a local `venv` virtual environment (will be properly developed and expanded once I improve my knowledge in web design and backend integration). 
+- LoRA: `r=64`, `lora_alpha=128`, RSLoRA — `q/k/v/o/gate/up/down_proj`
+- v10: ~2,693 training examples, refined with Claude Sonnet 4.5 / 4.6
+- Exported as GGUF `q4_k_m` for local inference via llama.cpp · Ollama · Open WebUI · Jan
 
 </details>
 
 ---
 
-### 🧠 MemoryMap AI *(In Development)*
+### *(Upcoming — University)*
 
-A local-first AI managed notebook application compatible with local models via Ollama or LMStudio etc.
-
-- Researching RAG vs. Text-to-SQL for database access architecture
-- Exploring fine-tuned models for specialised data retrieval
-- Designing an interface that removes AI configuration friction entirely for non-technical users
+- **🗞️ News Accuracy Checker** — Python tool for evaluating factual accuracy of news articles
+- **🏥 Hospital Management System** — C# system covering patient management, scheduling, and admin workflows
+- **🌐 Personal Portfolio** — P5.js creative graphics + photography + design work
 
 ---
 
-### 🗞️ News Accuracy Checker *(Upcoming - University)*
-Python-based application for evaluating the factual accuracy of news articles.
-
-### 🏥 Hospital Management System *(Upcoming - University)*
-C# system covering patient management, scheduling, and administrative workflows.
-
-### 🌐 Personal Portfolio *(Planned)*
-A digital portfolio integrating P5.js-inspired creative graphics alongside photography and design work.
-
----
-
-## 🛠️ Skills & Tools
+## 🛠️ Stack
 
 **Languages**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![P5.js](https://img.shields.io/badge/P5.js-ED225D?style=flat-square&logo=p5dotjs&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=flat-square&logoColor=white)
-![Visual Basic](https://img.shields.io/badge/Visual%20Basic-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![P5.js](https://img.shields.io/badge/P5.js-ED225D?style=flat-square&logo=p5dotjs&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 **AI / ML**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black)
 
-Model fine-tuning (LoRA / SFT) · GGUF quantisation · Local LLM deployment · Unsloth · llama.cpp
+LoRA / SFT fine-tuning · GGUF quantisation · Local LLM deployment · Unsloth · llama.cpp · Agentic workflows
 
-**Systems & Hardware**
+**Tools & Platforms**
 
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-**Platforms & Tools**
-
 ![Salesforce](https://img.shields.io/badge/Salesforce%20Flows-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio%202022-5C2D91?style=flat-square&logo=visualstudio&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
-**Concepts & Practices**
-
-Sorting & search algorithms · Hash tables & data structures · Object-relational mapping · Networking fundamentals · Database design · Cyber security principles · Discrete mathematics · Software engineering practices
-
----
-
-## 🎨 Design & Creative Work
-
-Studying Interaction Design at QUT - UX/UI principles, systems thinking, and human-centred design. Design experience from high school runs deeper than it sounds: Digital Solutions and Design subjects meant shipping actual things, not just sketching them.
-
-**Adobe Creative Suite**
+**Design**
 
 ![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-9999FF?style=flat-square&logo=adobepremierepro&logoColor=white)
 ![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white)
 ![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white)
 ![InDesign](https://img.shields.io/badge/InDesign-FF3366?style=flat-square&logo=adobeindesign&logoColor=white)
 
-**Photography** - Canon EOS R50. Landscape, street, portrait, and creative work.
-
+Canon EOS R50 · Landscape, street, portrait, and creative photography
 [![Instagram](https://img.shields.io/badge/@braydenhphotography-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/braydenhphotography/)
-
----
-
-## 🔐 Memberships & Cyber Security Experience
-
-- Completed a national **Cyber Security Work Experience Program** (1 week, 2023) - selected alongside participants from across Australia
-- Studied **IFB240 Cyber Security** at QUT
-- Member: **Australian Information Security Association (AISA)**
-- Member: **Australian Computer Society (ACS)**
 
 ---
 
 ## 🎓 Education
 
-### Queensland University of Technology - 2024–2027
-**Bachelor of Information Technology (Computer Science) / Bachelor of Design (Interaction Design)**
-
-**Degree Code**: *ID15*
+**QUT — 2024–2027**
+Bachelor of Information Technology (Computer Science) / Bachelor of Design (Interaction Design)
 
 <details>
-<summary>View full coursework</summary>
+<summary>Full coursework</summary>
 
 | Year | Sem | Code | Unit |
 |:----:|:---:|------|------|
@@ -199,41 +175,34 @@ Studying Interaction Design at QUT - UX/UI principles, systems thinking, and hum
 
 </details>
 
-### Coomera Anglican College - 2009–2023
-**Year 12 Graduate**
-
-Mathematical Methods · General English · Digital Solutions · Design · Film, TV & New Media · Chemistry
-
-Produced films and digital applications through Film/TV/New Media and Digital Solutions - where a genuine interest in making things started.
+**Coomera Anglican College — 2009–2023**
+Year 12 Graduate · Mathematical Methods · Digital Solutions · Design · Film, TV & New Media · Chemistry
 
 ---
 
-## 🏅 Awards & Achievements
+## 🏅 Awards
 
 | Award | Issued by | Date |
 |-------|-----------|------|
-| 🏆 DXB211 Creative Coding Tutor's Prize | QUT - Bachelor of Interaction Design | Jul 2026 |
-| 🏆 Executive Dean's Commendation for Academic Excellence | QUT - Faculty of Science | Jul 2024 |
+| 🏆 DXB211 Creative Coding Tutor's Prize | QUT — Bachelor of Interaction Design | Jul 2026 |
+| 🏆 Executive Dean's Commendation for Academic Excellence | QUT — Faculty of Science | Jul 2024 |
 | 🥈 Duke of Edinburgh Silver Award | Duke of Edinburgh's International Award | 2023 |
 | 🥉 Duke of Edinburgh Bronze Award | Duke of Edinburgh's International Award | 2021 |
 
 ---
 
-## 💼 Experience
+## 🔐 Other
 
-**Associate** - Topgolf Gold Coast *(Jun 2024 – Present)*
-Bay host role focused on delivering memorable guest experiences.
-
-**Student IT Assistant** - Coomera Anglican College IT Department *(Dec 2022)*
-Set up new student laptops via Windows Autopilot; provided general IT support.
+- Completed a national **Cyber Security Work Experience Program** (2023) — selected alongside participants from across Australia
+- Member: **AISA** (Australian Information Security Association) · **ACS** (Australian Computer Society)
+- **Associate**, Topgolf Gold Coast *(Jun 2024 – Present)*
 
 ---
 
 <div align="center">
 
-*QUT · Brisbane, QLD · Open to internships and collaborations in AI, software, and design.*
+*Open to internships and collaborations in AI, software, and design.*
 
 [![LinkedIn](https://img.shields.io/badge/Let's%20connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-hoyle-341106240)
 
-*This page was styled with the help of Claude by Anthropic*
 </div>
