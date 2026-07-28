@@ -23,7 +23,7 @@ Most of what lives here sits at the intersection of AI/ML systems and human-faci
 ### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) &nbsp;*(Active — Experimental)*
 
 <table><tr><td valign="top" width="80">
-<img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/icon-512.png" width="64" alt="MemoryMap AI" />
+<img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/icon-512.png" width="240" alt="MemoryMap AI" />
 </td><td valign="top">
 
 A local-first AI-powered notebook application. You type a thought; a local LLM files it. You ask a question in plain English; you get back a conversational answer *and* the raw notes that back it up — side by side, so you can actually verify it.
