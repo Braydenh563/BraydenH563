@@ -22,13 +22,17 @@ Most of what lives here sits at the intersection of AI/ML systems and human-faci
 
 ### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) &nbsp;*(Active — Experimental)*
 
-<div align="left"><img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/icon-512.png" width="64" height="64" alt="MemoryMap AI icon" /></div>
+<table><tr><td valign="top" width="80">
+<img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/icon-512.png" width="64" alt="MemoryMap AI" />
+</td><td valign="top">
 
 A local-first AI-powered notebook application. You type a thought; a local LLM files it. You ask a question in plain English; you get back a conversational answer *and* the raw notes that back it up — side by side, so you can actually verify it.
 
 100% offline. No account, no cloud, no telemetry. Your notes live in a plain SQLite file on your own machine.
 
 > **Experimental proof-of-concept** — largely vibe-coded in collaboration with Claude as a way to rapidly explore what a genuinely private, local-AI-native notebook could feel like. Architectural decisions are real and deliberate; the speed of development was not.
+
+</td></tr></table>
 
 <details>
 <summary>What's inside</summary>
@@ -58,13 +62,17 @@ A local-first AI-powered notebook application. You type a thought; a local LLM f
 
 ### 🧬 [HELIXLABS](https://github.com/Braydenh563/HELIXLABS) — Microbiome Simulation &nbsp;[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://braydenh563.github.io/HELIXLABS/)
 
-<div align="center"><img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="480" alt="HELIXLABS thumbnail" /></div>
+<table><tr><td valign="top">
 
 An interactive microbiome simulator built with p5.js. Sequence alien base proteins to synthesise unique organisms, introduce them into a living petri-dish ecosystem, and watch emergent species behaviour unfold in real time — competing, coexisting, and evolving.
 
 Started as the final assessment for QUT’s DXB211 Creative Coding unit. Became one of my largest projects to date and was exhibited publicly at **The Lanes, Fortitude Valley, Brisbane (July 2026)** as part of QUT’s Creative Coding exhibition, and also shown at the **Queensland Games Festival (June 2026)**.
 
 > Won the **DXB211 Tutor’s Prize** for Creative Coding.
+
+</td><td valign="top" align="right" width="260">
+<img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="240" alt="HELIXLABS" />
+</td></tr></table>
 
 <details>
 <summary>Features & technical details</summary>
