@@ -22,7 +22,7 @@ Most of what lives here sits at the intersection of AI/ML systems and human-faci
 
 ### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) &nbsp;*(Active — Experimental)*
 
-<table><tr><td valign="top" width="80">
+<table><tr><td valign="top" width="240">
 <img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/icon-512.png" width="240" alt="MemoryMap AI" />
 </td><td valign="top">
 
