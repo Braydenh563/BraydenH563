@@ -20,7 +20,9 @@ Most of what lives here sits at the intersection of AI/ML systems and human-faci
 
 ## 🚀 Projects
 
-### <img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/favicon.svg" width="18" height="18" valign="middle" /> [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) &nbsp;*(Active — Experimental)*
+### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) &nbsp;*(Active — Experimental)*
+
+<div align="left"><img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/icon-512.png" width="64" height="64" alt="MemoryMap AI icon" /></div>
 
 A local-first AI-powered notebook application. You type a thought; a local LLM files it. You ask a question in plain English; you get back a conversational answer *and* the raw notes that back it up — side by side, so you can actually verify it.
 
@@ -54,9 +56,9 @@ A local-first AI-powered notebook application. You type a thought; a local LLM f
 
 ---
 
-### [HELIXLABS](https://github.com/Braydenh563/HELIXLABS) — Microbiome Simulation &nbsp;[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://braydenh563.github.io/HELIXLABS/)
+### 🧬 [HELIXLABS](https://github.com/Braydenh563/HELIXLABS) — Microbiome Simulation &nbsp;[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://braydenh563.github.io/HELIXLABS/)
 
-<img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="380" alt="HELIXLABS thumbnail" />
+<div align="center"><img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="480" alt="HELIXLABS thumbnail" /></div>
 
 An interactive microbiome simulator built with p5.js. Sequence alien base proteins to synthesise unique organisms, introduce them into a living petri-dish ecosystem, and watch emergent species behaviour unfold in real time — competing, coexisting, and evolving.
 
