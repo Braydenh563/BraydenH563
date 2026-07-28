@@ -12,7 +12,7 @@
 
 ---
 
-I build AI-adjacent things — mostly local-first tools, generative experiments, and fine-tuned models. Third-year CS + Interaction Design student at QUT, where I try to make sure software I write is as considered to use as it is technically interesting to build.
+I build AI-adjacent things - mostly local-first tools, generative experiments, and fine-tuned models. Third-year CS + Interaction Design student at QUT, where I try to make sure software I write is as considered to use as it is technically interesting to build.
 
 Most of what lives here sits at the intersection of AI/ML systems and human-facing design: things built to actually be used, not just to demonstrate that they can exist.
 
@@ -20,13 +20,13 @@ Most of what lives here sits at the intersection of AI/ML systems and human-faci
 
 ## 🚀 Projects
 
-### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) *(Active — Experimental)*
+### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) *(Active - Experimental)*
 
-A local-first AI-powered notebook application. You type a thought; a local LLM files it. You ask a question in plain English; you get back a conversational answer *and* the raw notes that back it up — side by side, so you can actually verify it.
+A local-first AI-powered notebook application. You type a thought; a local LLM files it. You ask a question in plain English; you get back a conversational answer *and* the raw notes that back it up - side by side, so you can actually verify it.
 
 100% offline. No account, no cloud, no telemetry. Your notes live in a plain SQLite file on your own machine.
 
-> **Experimental proof-of-concept** — largely vibe-coded in collaboration with Claude as a way to rapidly explore what a genuinely private, local-AI-native notebook could feel like. Architectural decisions are real and deliberate; the speed of development was not.
+> **Experimental proof-of-concept** - largely vibe-coded in collaboration with Claude as a way to rapidly explore what a genuinely private, local-AI-native notebook could feel like. Architectural decisions are real and deliberate; the speed of development was not.
 
 <details>
 <summary>What's inside</summary>
@@ -34,29 +34,29 @@ A local-first AI-powered notebook application. You type a thought; a local LLM f
 **Stack:** FastAPI backend · Vanilla JS frontend (no framework, no build step) · SQLite · Ollama integration · `BAAI/bge-small-en-v1.5` for local semantic search
 
 **Features across 6 tabs:**
-- **Dashboard** — capture streak, AI weekly digest, activity heatmap, focus timer, rearrangeable layout
-- **Notes** — auto-filing by meaning, tags, pins, threads, attachments, private encrypted notes, revision history, advanced search operators (`tag:`, `cat:`, `is:pinned`, `-exclude`, `"exact phrase"`)
-- **Chat** — conversational access to your notebook with Agent mode (28 tools: search, create, link, tag, remind, open pages); full tool call timeline
-- **Graph** — force-directed knowledge map; click to edit, link, or ask for AI-suggested connections
-- **Documents** — Markdown editor with live preview, PDF export, AI-suggested edits shown as diffs you accept/reject
-- **Reminders** — natural language scheduling ("call mum tomorrow evening")
+- **Dashboard** - capture streak, AI weekly digest, activity heatmap, focus timer, rearrangeable layout
+- **Notes** - auto-filing by meaning, tags, pins, threads, attachments, private encrypted notes, revision history, advanced search operators (`tag:`, `cat:`, `is:pinned`, `-exclude`, `"exact phrase"`)
+- **Chat** - conversational access to your notebook with Agent mode (28 tools: search, create, link, tag, remind, open pages); full tool call timeline
+- **Graph** - force-directed knowledge map; click to edit, link, or ask for AI-suggested connections
+- **Documents** - Markdown editor with live preview, PDF export, AI-suggested edits shown as diffs you accept/reject
+- **Reminders** - natural language scheduling ("call mum tomorrow evening")
 
 **Also:** command palette (`Ctrl/Cmd+K`), local Whisper dictation, read-aloud, opt-in web search with SearXNG support, 12 themes × 8 colour palettes, daily local backups, PWA, desktop window mode
 
-**Privacy:** server binds to localhost, no CDN assets, web search is opt-in and never sends notes — only the query words. Private notes are encrypted at rest.
+**Privacy:** server binds to localhost, no CDN assets, web search is opt-in and never sends notes - only the query words. Private notes are encrypted at rest.
 
-**Tests:** 547 pytest tests; every AI call faked — runs fully offline with no GPU or model.
+**Tests:** 547 pytest tests; every AI call faked - runs fully offline with no GPU or model.
 
 </details>
 
-**Models that work well with it** — pulled via `ollama pull <model>`:
+**Models that work well with it** - pulled via `ollama pull <model>`:
 `llama3.2` · `granite4.1:3b` · `qwen3.5:2b` · `gemma4:e2b` · `lfm2.5`
 
 ---
 
-### 🧬 [HELIXLABS](https://github.com/Braydenh563/HELIXLABS) — Microbiome Simulation [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://braydenh563.github.io/HELIXLABS/)
+### 🧬 [HELIXLABS](https://github.com/Braydenh563/HELIXLABS) - Microbiome Simulation [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://braydenh563.github.io/HELIXLABS/)
 
-An interactive microbiome simulator built with p5.js. Sequence alien base proteins to synthesise unique organisms, introduce them into a living petri-dish ecosystem, and watch emergent species behaviour unfold in real time — competing, coexisting, and evolving.
+An interactive microbiome simulator built with p5.js. Sequence alien base proteins to synthesise unique organisms, introduce them into a living petri-dish ecosystem, and watch emergent species behaviour unfold in real time - competing, coexisting, and evolving.
 
 Started as the final assessment for QUT's DXB211 Creative Coding unit. Became one of my largest projects to date and was exhibited publicly at **The Lanes, Fortitude Valley, Brisbane (July 2026)** as part of QUT's Creative Coding exhibition, and also shown at the **Queensland Games Festival (June 2026)**.
 
@@ -66,17 +66,17 @@ Started as the final assessment for QUT's DXB211 Creative Coding unit. Became on
 <summary>Features & technical details</summary>
 
 **Core mechanics:**
-- **Procedural species generation** — 26 alien base proteins combine via `NodeClass.js` to produce organisms with distinct traits; no two sequences behave identically
-- **Ecosystem simulation** — species interact, compete, and coexist dynamically; behaviour is fully determined by DNA sequence
-- **Click & drag interaction** — physically move individual organisms around the environment
-- **Randomise function** — instant random DNA sequence for quick experimentation
+- **Procedural species generation** - 26 alien base proteins combine via `NodeClass.js` to produce organisms with distinct traits; no two sequences behave identically
+- **Ecosystem simulation** - species interact, compete, and coexist dynamically; behaviour is fully determined by DNA sequence
+- **Click & drag interaction** - physically move individual organisms around the environment
+- **Randomise function** - instant random DNA sequence for quick experimentation
 
 **UI & audio:**
-- **Species Index** — an in-simulation encyclopedia cataloguing every species you've introduced
-- **Ambient audio engine** — custom `BackgroundAmbienceManager.js` dynamically layers sound based on simulation state
-- **Tutorial & hint popups** — built-in guided walkthrough for first-time players
-- **FPS performance overlay** — real-time monitoring
-- **Custom notification system** — via `Notification.js`
+- **Species Index** - an in-simulation encyclopedia cataloguing every species you've introduced
+- **Ambient audio engine** - custom `BackgroundAmbienceManager.js` dynamically layers sound based on simulation state
+- **Tutorial & hint popups** - built-in guided walkthrough for first-time players
+- **FPS performance overlay** - real-time monitoring
+- **Custom notification system** - via `Notification.js`
 
 **Stack:** JavaScript (99.9%) · p5.js · p5.sound · GitHub Pages (auto-deploy via Actions)
 
@@ -96,13 +96,13 @@ Started as the final assessment for QUT's DXB211 Creative Coding unit. Became on
 
 ### 🎨 [BH Creative Coding](https://github.com/Braydenh563/BH-CreativeCoding)
 
-Generative and interactive visual experiments built with P5.js — animation, colour, form, and interactivity. Feeding into a planned personal portfolio site.
+Generative and interactive visual experiments built with P5.js - animation, colour, form, and interactivity. Feeding into a planned personal portfolio site.
 
 ---
 
 ### 🤖 [Astraea - Prompt Architect](https://chatgpt.com/g/g-68ad0fff3c108191a9b9b05cd2e20584-astraea-prompt-architect)
 
-A specialised AI agent for turning rough ideas into production-ready prompts — routing structured output across ChatGPT, Claude, Gemini, Midjourney, DALL·E, Sora, and more.
+A specialised AI agent for turning rough ideas into production-ready prompts - routing structured output across ChatGPT, Claude, Gemini, Midjourney, DALL·E, Sora, and more.
 
 <details>
 <summary>Fine-tuning & system design details</summary>
@@ -116,7 +116,7 @@ A specialised AI agent for turning rough ideas into production-ready prompts —
 **Fine-Tuning**
 - Base: `Meta-Llama-3.1-8B-Instruct` (4-bit quantised via [Unsloth](https://github.com/unslothai/unsloth))
 - Trained with HuggingFace TRL `SFTTrainer` on Google Colab (NVIDIA A100)
-- LoRA: `r=64`, `lora_alpha=128`, RSLoRA — `q/k/v/o/gate/up/down_proj`
+- LoRA: `r=64`, `lora_alpha=128`, RSLoRA - `q/k/v/o/gate/up/down_proj`
 - v10: ~2,693 training examples, refined with Claude Sonnet 4.5 / 4.6
 - Exported as GGUF `q4_k_m` for local inference via llama.cpp · Ollama · Open WebUI · Jan
 
@@ -124,11 +124,11 @@ A specialised AI agent for turning rough ideas into production-ready prompts —
 
 ---
 
-### *(Upcoming — University)*
+### *(Upcoming - University)*
 
-- **🗞️ News Accuracy Checker** — Python tool for evaluating factual accuracy of news articles
-- **🏥 Hospital Management System** — C# system covering patient management, scheduling, and admin workflows
-- **🌐 Personal Portfolio** — P5.js creative graphics + photography + design work
+- **🗞️ News Accuracy Checker** - Python tool for evaluating factual accuracy of news articles
+- **🏥 Hospital Management System** - C# system covering patient management, scheduling, and admin workflows
+- **🌐 Personal Portfolio** - P5.js creative graphics + photography + design work
 
 ---
 
@@ -176,7 +176,7 @@ Canon EOS R50 · Landscape, street, portrait, and creative photography
 
 ## 🎓 Education
 
-**QUT — 2024–2027**
+**QUT - 2024–2027**
 Bachelor of Information Technology (Computer Science) / Bachelor of Design (Interaction Design)
 
 <details>
@@ -209,7 +209,7 @@ Bachelor of Information Technology (Computer Science) / Bachelor of Design (Inte
 
 </details>
 
-**Coomera Anglican College — 2009–2023**
+**Coomera Anglican College - 2009–2023**
 Year 12 Graduate · Mathematical Methods · Digital Solutions · Design · Film, TV & New Media · Chemistry
 
 ---
@@ -218,8 +218,8 @@ Year 12 Graduate · Mathematical Methods · Digital Solutions · Design · Film,
 
 | Award | Issued by | Date |
 |-------|-----------|------|
-| 🏆 DXB211 Creative Coding Tutor's Prize | QUT — Bachelor of Interaction Design | Jul 2026 |
-| 🏆 Executive Dean's Commendation for Academic Excellence | QUT — Faculty of Science | Jul 2024 |
+| 🏆 DXB211 Creative Coding Tutor's Prize | QUT - Bachelor of Interaction Design | Jul 2026 |
+| 🏆 Executive Dean's Commendation for Academic Excellence | QUT - Faculty of Science | Jul 2024 |
 | 🥈 Duke of Edinburgh Silver Award | Duke of Edinburgh's International Award | 2023 |
 | 🥉 Duke of Edinburgh Bronze Award | Duke of Edinburgh's International Award | 2021 |
 
@@ -227,7 +227,7 @@ Year 12 Graduate · Mathematical Methods · Digital Solutions · Design · Film,
 
 ## 🔐 Other
 
-- Completed a national **Cyber Security Work Experience Program** (2023) — selected alongside participants from across Australia
+- Completed a national **Cyber Security Work Experience Program** (2023) - selected alongside participants from across Australia
 - Member: **AISA** (Australian Information Security Association) · **ACS** (Australian Computer Society)
 - **Associate**, Topgolf Gold Coast *(Jun 2024 – Present)*
 
