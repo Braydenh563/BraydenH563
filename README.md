@@ -54,9 +54,43 @@ A local-first AI-powered notebook application. You type a thought; a local LLM f
 
 ---
 
-### 🧬 [HELIXLABS - Microbiome Simulation](https://github.com/Braydenh563/HELIXLABS)
+### 🧬 [HELIXLABS](https://github.com/Braydenh563/HELIXLABS) — Microbiome Simulation [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://braydenh563.github.io/HELIXLABS/)
 
-Generative and interactive virtual microbiome simulator built with P5.js. Final assessment for DXB211 Creative Coding at QUT — ended up being one of my largest projects to date. Exhibited at The Lanes, Fortitude Valley, Brisbane in July 2026 as part of QUT's Creative Coding exhibition.
+An interactive microbiome simulator built with p5.js. Sequence alien base proteins to synthesise unique organisms, introduce them into a living petri-dish ecosystem, and watch emergent species behaviour unfold in real time — competing, coexisting, and evolving.
+
+Started as the final assessment for QUT's DXB211 Creative Coding unit. Became one of my largest projects to date and was exhibited publicly at **The Lanes, Fortitude Valley, Brisbane (July 2026)** as part of QUT's Creative Coding exhibition, and also shown at the **Queensland Games Festival (June 2026)**.
+
+> Won the **DXB211 Tutor's Prize** for Creative Coding.
+
+<details>
+<summary>Features & technical details</summary>
+
+**Core mechanics:**
+- **Procedural species generation** — 26 alien base proteins combine via `NodeClass.js` to produce organisms with distinct traits; no two sequences behave identically
+- **Ecosystem simulation** — species interact, compete, and coexist dynamically; behaviour is fully determined by DNA sequence
+- **Click & drag interaction** — physically move individual organisms around the environment
+- **Randomise function** — instant random DNA sequence for quick experimentation
+
+**UI & audio:**
+- **Species Index** — an in-simulation encyclopedia cataloguing every species you've introduced
+- **Ambient audio engine** — custom `BackgroundAmbienceManager.js` dynamically layers sound based on simulation state
+- **Tutorial & hint popups** — built-in guided walkthrough for first-time players
+- **FPS performance overlay** — real-time monitoring
+- **Custom notification system** — via `Notification.js`
+
+**Stack:** JavaScript (99.9%) · p5.js · p5.sound · GitHub Pages (auto-deploy via Actions)
+
+**Controls:**
+| Input | Action |
+|---|---|
+| Type letters (A–Z) | Define your DNA sequence |
+| Click environment | Spawn and introduce your species |
+| Click & drag | Move individual organisms |
+| Randomise button | Generate a surprise sequence |
+
+**Platform support:** PC/Laptop (Windows & Linux) · [Download v1.1.0](https://github.com/Braydenh563/HELIXLABS/releases/tag/v1.1.0)
+
+</details>
 
 ---
 
