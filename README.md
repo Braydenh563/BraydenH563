@@ -222,6 +222,10 @@ Bachelor of Information Technology (Computer Science) / Bachelor of Design (Inte
 | 3 | 1 | DXB211 | Creative Coding |
 | 3 | 1 | DYB121 | Introduction to Design Fabrication |
 | 3 | 1 | DYB101 | Impact Lab: Place and Context |
+| 3 | 2 | CAB432 | Cloud Computing |
+| 3 | 2 | DXB212 | Tangible Interaction Design |
+| 3 | 2 | DXB111 | Introduction to Web Design |
+| 3 | 2 | DYB102 | Impact Lab: Society and Systems |
 
 </details>
 
@@ -234,6 +238,7 @@ Year 12 Graduate · Mathematical Methods · Digital Solutions · Design · Film,
 
 | Award | Issued by | Date |
 |-------|-----------|------|
+| 🏆 Executive Dean’s Commendation for Academic Excellence | QUT - Faculty of Creative Industries, Education, and Social Justice | Jul 2026 |
 | 🏆 DXB211 Creative Coding Tutor’s Prize | QUT - Bachelor of Interaction Design | Jul 2026 |
 | 🏆 Executive Dean’s Commendation for Academic Excellence | QUT - Faculty of Science | Jul 2024 |
 | 🥈 Duke of Edinburgh Silver Award | Duke of Edinburgh’s International Award | 2023 |
