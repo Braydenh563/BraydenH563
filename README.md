@@ -159,6 +159,7 @@ A specialised AI agent for turning rough ideas into production-ready prompts - r
 ![P5.js](https://img.shields.io/badge/P5.js-ED225D?style=flat-square&logo=p5dotjs&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=flat-square&logoColor=white)
+![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
 
 **AI / ML**
 
