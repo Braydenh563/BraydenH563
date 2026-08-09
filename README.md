@@ -24,8 +24,8 @@ Most of what lives here spans creative coding, applied AI, and interface-driven 
 
 ### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) &nbsp;*(Active - Experimental)*
 
-<table><tr><td valign="top" width="240">
-<img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/icon-512.png" width="240" alt="MemoryMap AI" />
+<table><tr><td align="center" valign="middle" width="200">
+<img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/icon-512.png" width="200" alt="MemoryMap AI" />
 </td><td valign="top">
 
 A local-first AI-powered notebook application. You type a thought; a local LLM files it. You ask a question in plain English; you get back a conversational answer *and* the raw notes that back it up - side by side, so you can actually verify it.
@@ -72,8 +72,8 @@ Started as the final assessment for QUT’s DXB211 Creative Coding unit. Became 
 
 > Won the **DXB211 Tutor’s Prize** for Creative Coding.
 
-</td><td valign="top" align="right" width="260">
-<img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="240" alt="HELIXLABS" />
+</td><td align="center" valign="middle" width="200">
+<img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="200" alt="HELIXLABS" />
 </td></tr></table>
 
 <details>
