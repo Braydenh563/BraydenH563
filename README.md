@@ -39,26 +39,27 @@ A local-first AI-powered notebook application. You type a thought; a local LLM f
 <details>
 <summary>What's inside</summary>
 
-**Stack:** FastAPI backend · Vanilla JS frontend (no framework, no build step) · SQLite · Ollama integration · `BAAI/bge-small-en-v1.5` for local semantic search
+**Stack:** FastAPI backend · Vanilla JS frontend (no framework, no build step) · SQLite · Ollama integration (or any OpenAI-compatible server - LM Studio, llama.cpp, Jan, vLLM) · `BAAI/bge-small-en-v1.5` for local semantic search
 
-**Features across 6 tabs:**
+**Features across 7 tabs:**
 - **Dashboard** - capture streak, AI weekly digest, activity heatmap, focus timer, rearrangeable layout
 - **Notes** - auto-filing by meaning, tags, pins, threads, attachments, private encrypted notes, revision history, advanced search operators (`tag:`, `cat:`, `is:pinned`, `-exclude`, `"exact phrase"`)
-- **Chat** - conversational access to your notebook with Agent mode (28 tools: search, create, link, tag, remind, open pages); full tool call timeline
-- **Graph** - force-directed knowledge map; click to edit, link, or ask for AI-suggested connections
-- **Documents** - Markdown editor with live preview, PDF export, AI-suggested edits shown as diffs you accept/reject
+- **Chat** - conversational access to your notebook with Agent mode (~50 tools: search, create, link, tag, remind, open pages, place/connect whiteboard cards); full tool call timeline; personas
+- **Graph** - force-directed knowledge map labelled with *how* two notes connect, editable inline; AI-suggested connections between notes that read alike but were never linked
+- **Library** - one place for notes, documents, chats, files, tags, the recycle bin and activity log; opens the **document editor** (Markdown, live preview, PDF export, AI-suggested edits as diffs you accept/reject) and the **whiteboard** (OneNote/draw.io-style canvas - image/text boxes, connection-point anchors, mind-mapping auto-layout, and an AI tool that lays out a whole diagram from a set of notes in one call)
+- **Timeline** - every note plotted on a time axis, by when it's *about* or when it was written
 - **Reminders** - natural language scheduling ("call mum tomorrow evening")
 
 **Also:** command palette (`Ctrl/Cmd+K`), local Whisper dictation, read-aloud, opt-in web search with SearXNG support, 12 themes × 8 colour palettes, daily local backups, PWA, desktop window mode
 
 **Privacy:** server binds to localhost, no CDN assets, web search is opt-in and never sends notes - only the query words. Private notes are encrypted at rest.
 
-**Tests:** 547 pytest tests; every AI call faked - runs fully offline with no GPU or model.
+**Tests:** ~1,700 pytest tests, all green; every AI call faked - runs fully offline with no GPU or model.
 
 </details>
 
 **Models that work well with it** - pulled via `ollama pull <model>`:
-`llama3.2` · `granite4.1:3b` · `qwen3.5:2b` · `gemma4:e2b` · `lfm2.5`
+`llama3.2` · `granite4.1:3b` · `qwen3.5:2b` · `gemma4:e2b`
 
 ---
 
