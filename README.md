@@ -20,7 +20,7 @@ Most of what lives here spans creative coding, applied AI, and interface-driven 
 
 ---
 
-## Projects
+## 🚀 Projects
 
 <div align="center">
 
