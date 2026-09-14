@@ -4,7 +4,7 @@
 
 **CS × Interaction Design · QUT · Brisbane, Australia**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Brayden%20Hoyle-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-hoyle-341106240)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Brayden%20Hoyle-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/braydenh563/)
 [![Instagram](https://img.shields.io/badge/Photography-@braydenhphotography-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/braydenhphotography/)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-braydenh563-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/braydenh563)
 
@@ -260,6 +260,6 @@ Year 12 Graduate · Mathematical Methods · Digital Solutions · Design · Film,
 
 *Open to internships and collaborations in AI, software, and design.*
 
-[![LinkedIn](https://img.shields.io/badge/Let's%20connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-hoyle-341106240)
+[![LinkedIn](https://img.shields.io/badge/Let's%20connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/braydenh563/)
 
 </div>
