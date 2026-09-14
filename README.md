@@ -22,80 +22,93 @@ Most of what lives here spans creative coding, applied AI, and interface-driven 
 
 ## 🚀 Projects
 
-### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI) &nbsp;*(Active - Experimental)*
+<div align="center">
 
-<table><tr><td align="center" valign="middle" width="200">
-<img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/frontend/icon-512.png" width="200" alt="MemoryMap AI" />
-</td><td valign="top">
+### 🧠 [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI)
 
-A local-first AI-powered notebook application. You type a thought; a local LLM files it. You ask a question in plain English; you get back a conversational answer *and* the raw notes that back it up - side by side, so you can actually verify it.
+[![Latest release](https://img.shields.io/github/v/release/Braydenh563/MemoryMap-AI?style=flat-square&label=release)](https://github.com/Braydenh563/MemoryMap-AI/releases/latest)
+[![Tests](https://img.shields.io/badge/tests-4%2C000%2B%20offline-2ea44f?style=flat-square)](https://github.com/Braydenh563/MemoryMap-AI/tree/main/tests)
+[![Offline](https://img.shields.io/badge/100%25-offline-111827?style=flat-square)](https://github.com/Braydenh563/MemoryMap-AI#the-ai-and-life-without-it)
+[![Licence](https://img.shields.io/badge/licence-AGPL--3.0-blue?style=flat-square)](https://github.com/Braydenh563/MemoryMap-AI/blob/main/LICENSE)
 
-100% offline. No account, no cloud, no telemetry. Your notes live in a plain SQLite file on your own machine.
+<a href="https://github.com/Braydenh563/MemoryMap-AI">
+<img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/docs/screenshots/graph.png" width="720" alt="MemoryMap AI: the knowledge graph, notes as glowing nodes linked by meaning" />
+</a>
 
-> **Experimental proof-of-concept** - largely vibe-coded in collaboration with Claude as a way to rapidly explore what a genuinely private, local-AI-native notebook could feel like. Architectural decisions are real and deliberate; the speed of development was not.
+<sub>The Graph: every note as a node, linked by meaning, with the reason for each link written down.</sub>
 
-</td></tr></table>
+**A local-first notebook with a local AI librarian.** You type a thought and the AI files it. You ask a question in plain English and get a conversational answer *and* the notes behind it, side by side, each sentence linked to the note it came from. The whole thing runs on your own machine: no account, no cloud, no telemetry, and it keeps working with no model installed at all.
+
+</div>
+
+**What makes it different**
+
+- 🗺️ **Your notes as a map.** A force-directed graph coloured by category and linked by meaning; a timeline of everything by when it happened; a dashboard with your streak, digest and widgets.
+- 🤖 **An agent that acts, and shows its work.** 58 tools to search, link, tag, remind, organise and place cards on a board; every step visible; anything destructive asks first. 20 built-in skills run multi-step jobs as a checklist.
+- ✍️ **Long-form writing and a canvas.** A Markdown document editor with live view, version history and AI edits as diffs; a whiteboard for sketches, shapes and note cards that can become a mind map grown from your notes.
+- 📚 **One Library for everything.** Notes, documents, chats, files, tags and the recycle bin. Every image read three ways: a caption, a vision-model transcription and OCR, all searchable. PDFs, spreadsheets and code imported with their text.
+- 🧭 **Atlas.** An in-app guide that answers "how do I" from the app's own documentation, never from your notes.
+- 🔐 **Private by construction.** Localhost only, no CDN assets, notes in a plain SQLite file, private notes encrypted at rest, web search opt-in and query-only.
+- 🎨 **Designed, not assembled.** One design system enforced by lints; ten themes over colour palettes; responsive from a phone to a desktop; a packaged Windows installer and Linux build.
 
 <details>
-<summary>What's inside</summary>
+<summary><b>Under the hood</b></summary>
 
-**Stack:** FastAPI backend · Vanilla JS frontend (no framework, no build step) · SQLite · Ollama integration (or any OpenAI-compatible server - LM Studio, llama.cpp, Jan, vLLM) · `BAAI/bge-small-en-v1.5` for local semantic search
+<br>
 
-**Features across 7 tabs:**
-- **Dashboard** - capture streak, AI weekly digest, activity heatmap, focus timer, rearrangeable layout
-- **Notes** - auto-filing by meaning, tags, pins, threads, attachments, private encrypted notes, revision history, advanced search operators (`tag:`, `cat:`, `is:pinned`, `-exclude`, `"exact phrase"`)
-- **Chat** - conversational access to your notebook with Agent mode (~50 tools: search, create, link, tag, remind, open pages, place/connect whiteboard cards); full tool call timeline; personas
-- **Graph** - force-directed knowledge map labelled with *how* two notes connect, editable inline; AI-suggested connections between notes that read alike but were never linked
-- **Library** - one place for notes, documents, chats, files, tags, the recycle bin and activity log; opens the **document editor** (Markdown, live preview, PDF export, AI-suggested edits as diffs you accept/reject) and the **whiteboard** (OneNote/draw.io-style canvas - image/text boxes, connection-point anchors, mind-mapping auto-layout, and an AI tool that lays out a whole diagram from a set of notes in one call)
-- **Timeline** - every note plotted on a time axis, by when it's *about* or when it was written
-- **Reminders** - natural language scheduling ("call mum tomorrow evening")
+**Stack:** FastAPI · SQLAlchemy · SQLite · vanilla JS (no framework, no build step) · CodeMirror 6 for documents · a canvas graph renderer with a layout worker · Ollama or any OpenAI-compatible server (LM Studio, llama.cpp, Jan, vLLM) · `BAAI/bge-small-en-v1.5` for local semantic search · local Whisper dictation · Tesseract OCR
 
-**Also:** command palette (`Ctrl/Cmd+K`), local Whisper dictation, read-aloud, opt-in web search with SearXNG support, 12 themes × 8 colour palettes, daily local backups, PWA, desktop window mode
+**Engineering:** 4,000+ pytest tests, all offline with every AI call faked · Playwright sweeps that measure the interface (console errors, contrast, touch targets, dock grammar) in both themes at four widths · CodeQL on every push · a release workflow that starts the packaged app before it publishes it
 
-**Privacy:** server binds to localhost, no CDN assets, web search is opt-in and never sends notes - only the query words. Private notes are encrypted at rest.
+**Built with AI, deliberately.** MemoryMap was developed in collaboration with Claude (Claude Code) as an experiment in how far an AI-assisted solo project can go when the design decisions, the tests and the measurements stay human-owned. About 1,300 commits went into the 0.3.0 release alone.
 
-**Tests:** ~1,700 pytest tests, all green; every AI call faked - runs fully offline with no GPU or model.
+**Models that work well** (`ollama pull <model>`): `llama3.2` · `granite4.1:3b` · `qwen3.5:2b` · `gemma4:e2b`
 
 </details>
 
-**Models that work well with it** - pulled via `ollama pull <model>`:
-`llama3.2` · `granite4.1:3b` · `qwen3.5:2b` · `gemma4:e2b`
-
 ---
 
-### 🧬 [HELIXLABS](https://github.com/Braydenh563/HELIXLABS) - Microbiome Simulation &nbsp;[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://braydenh563.github.io/HELIXLABS/)
+<div align="center">
 
-<table><tr><td valign="top">
+### 🧬 [HELIXLABS](https://github.com/Braydenh563/HELIXLABS) - Microbiome Simulation
+
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://braydenh563.github.io/HELIXLABS/)
+[![Download](https://img.shields.io/badge/download-v1.1.0-blue?style=flat-square)](https://github.com/Braydenh563/HELIXLABS/releases/tag/v1.1.0)
+
+<a href="https://braydenh563.github.io/HELIXLABS/">
+<img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="720" alt="HELIXLABS" />
+</a>
 
 An interactive microbiome simulator built with p5.js. Sequence alien base proteins to synthesise unique organisms, introduce them into a living petri-dish ecosystem, and watch emergent species behaviour unfold in real time - competing, coexisting, and evolving.
 
-Started as the final assessment for QUT’s DXB211 Creative Coding unit. Became one of my largest projects to date and was exhibited publicly at **The Lanes, Fortitude Valley, Brisbane (July 2026)** as part of QUT’s Creative Coding exhibition, and also shown at the **Queensland Games Festival (June 2026)**.
+</div>
 
-> Won the **DXB211 Tutor’s Prize** for Creative Coding.
+Started as the final assessment for QUT's DXB211 Creative Coding unit. Became one of my largest projects to date and was exhibited publicly at **The Lanes, Fortitude Valley, Brisbane (July 2026)** as part of QUT's Creative Coding exhibition, and also shown at the **Queensland Games Festival (June 2026)**.
 
-</td><td align="center" valign="middle" width="200">
-<img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="200" alt="HELIXLABS" />
-</td></tr></table>
+
+> 🏆 Won the **DXB211 Tutor's Prize** for Creative Coding.
 
 <details>
-<summary>Features & technical details</summary>
+<summary><b>Features & technical details</b></summary>
 
-**Core mechanics:**
+<br>
+
+**Core mechanics**
 - **Procedural species generation** - 26 alien base proteins combine via `NodeClass.js` to produce organisms with distinct traits; no two sequences behave identically
 - **Ecosystem simulation** - species interact, compete, and coexist dynamically; behaviour is fully determined by DNA sequence
 - **Click & drag interaction** - physically move individual organisms around the environment
 - **Randomise function** - instant random DNA sequence for quick experimentation
 
-**UI & audio:**
+**UI & audio**
 - **Species Index** - in-simulation encyclopedia cataloguing every species introduced
 - **Ambient audio engine** - custom `BackgroundAmbienceManager.js` dynamically layers sound based on simulation state
 - **Tutorial & hint popups** - built-in guided walkthrough for first-time players
 - **FPS performance overlay** - real-time monitoring
 - **Custom notification system** - via `Notification.js`
 
-**Stack:** JavaScript (99.9%) · p5.js · p5.sound · GitHub Pages (auto-deploy via Actions)
+**Stack:** JavaScript · p5.js · p5.sound · GitHub Pages (auto-deploy via Actions)
 
-**Controls:**
+**Controls**
 
 | Input | Action |
 |---|---|
@@ -104,7 +117,7 @@ Started as the final assessment for QUT’s DXB211 Creative Coding unit. Became 
 | Click & drag | Move individual organisms |
 | Randomise button | Generate a surprise sequence |
 
-**Platform support:** PC/Laptop (Windows & Linux) · [Download v1.1.0](https://github.com/Braydenh563/HELIXLABS/releases/tag/v1.1.0)
+**Platform support:** PC/Laptop (Windows & Linux)
 
 </details>
 
@@ -112,7 +125,7 @@ Started as the final assessment for QUT’s DXB211 Creative Coding unit. Became 
 
 ### 🎨 [BH Creative Coding](https://github.com/Braydenh563/BH-CreativeCoding)
 
-Generative and interactive visual experiments built with P5.js - animation, colour, form, and interactivity. Feeding into a planned personal portfolio site.
+Generative and interactive visual experiments built with p5.js - animation, colour, form, and interactivity. Feeding into a planned personal portfolio site.
 
 ---
 
@@ -121,15 +134,17 @@ Generative and interactive visual experiments built with P5.js - animation, colo
 A specialised AI agent for turning rough ideas into production-ready prompts - routing structured output across ChatGPT, Claude, Gemini, Midjourney, DALL·E, Sora, and more.
 
 <details>
-<summary>Fine-tuning & system design details</summary>
+<summary><b>Fine-tuning & system design details</b></summary>
 
-**System Design**
+<br>
+
+**System design**
 - Three modes: `DUAL` · `PROMPT-ONLY` · `ADVICE-ONLY`
 - Three complexity tiers: `BASIC` · `STANDARD` · `EXPERT`
 - 4D build process: Deconstruct → Diagnose → Develop → Deliver
 - 7D rewrite framework, Prompt Linter, Mini QA Gate, Assumption Ledger, output Scorecard
 
-**Fine-Tuning**
+**Fine-tuning**
 - Base: `Meta-Llama-3.1-8B-Instruct` (4-bit quantised via [Unsloth](https://github.com/unslothai/unsloth))
 - Trained with HuggingFace TRL `SFTTrainer` on Google Colab (NVIDIA A100)
 - LoRA: `r=64`, `lora_alpha=128`, RSLoRA - `q/k/v/o/gate/up/down_proj`
@@ -144,7 +159,7 @@ A specialised AI agent for turning rough ideas into production-ready prompts - r
 
 - **🗞️ News Accuracy Checker** - Python tool for evaluating factual accuracy of news articles
 - **🏥 Hospital Management System** - C# system covering patient management, scheduling, and admin workflows
-- **🌐 Personal Portfolio** - P5.js creative graphics + photography + design work
+- **🌐 Personal Portfolio** - p5.js creative graphics + photography + design work
 
 ---
 
@@ -153,6 +168,7 @@ A specialised AI agent for turning rough ideas into production-ready prompts - r
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -168,11 +184,16 @@ A specialised AI agent for turning rough ideas into production-ready prompts - r
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logoColor=white)
 
-LoRA / SFT fine-tuning · GGUF quantisation · Local LLM deployment · Unsloth · llama.cpp · Agentic workflows
+LoRA / SFT fine-tuning · GGUF quantisation · Local LLM deployment · Unsloth · llama.cpp · Agentic workflows · AI-assisted engineering with tests and measurements as the gate
 
-**Tools & Platforms**
+**Backend & tooling**
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
@@ -240,11 +261,11 @@ Year 12 Graduate · Mathematical Methods · Digital Solutions · Design · Film,
 
 | Award | Issued by | Date |
 |-------|-----------|------|
-| 🏆 Executive Dean’s Commendation for Academic Excellence | QUT - Faculty of Creative Industries, Education, and Social Justice | Jul 2026 |
-| 🏆 DXB211 Creative Coding Tutor’s Prize | QUT - Bachelor of Interaction Design | Jul 2026 |
-| 🏆 Executive Dean’s Commendation for Academic Excellence | QUT - Faculty of Science | Jul 2024 |
-| 🥈 Duke of Edinburgh Silver Award | Duke of Edinburgh’s International Award | 2023 |
-| 🥉 Duke of Edinburgh Bronze Award | Duke of Edinburgh’s International Award | 2021 |
+| 🏆 Executive Dean's Commendation for Academic Excellence | QUT - Faculty of Creative Industries, Education, and Social Justice | Jul 2026 |
+| 🏆 DXB211 Creative Coding Tutor's Prize | QUT - Bachelor of Interaction Design | Jul 2026 |
+| 🏆 Executive Dean's Commendation for Academic Excellence | QUT - Faculty of Science | Jul 2024 |
+| 🥈 Duke of Edinburgh Silver Award | Duke of Edinburgh's International Award | 2023 |
+| 🥉 Duke of Edinburgh Bronze Award | Duke of Edinburgh's International Award | 2021 |
 
 ---
 
@@ -263,3 +284,4 @@ Year 12 Graduate · Mathematical Methods · Digital Solutions · Design · Film,
 [![LinkedIn](https://img.shields.io/badge/Let's%20connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/braydenh563/)
 
 </div>
+</content>
