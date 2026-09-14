@@ -20,7 +20,7 @@ Most of what lives here spans creative coding, applied AI, and interface-driven 
 
 ---
 
-## 🚀 Projects
+## Projects
 
 <div align="center">
 
@@ -43,13 +43,13 @@ Most of what lives here spans creative coding, applied AI, and interface-driven 
 
 **What makes it different**
 
-- 🗺️ **Your notes as a map.** A force-directed graph coloured by category and linked by meaning; a timeline of everything by when it happened; a dashboard with your streak, digest and widgets.
-- 🤖 **An agent that acts, and shows its work.** 58 tools to search, link, tag, remind, organise and place cards on a board; every step visible; anything destructive asks first. 20 built-in skills run multi-step jobs as a checklist.
-- ✍️ **Long-form writing and a canvas.** A Markdown document editor with live view, version history and AI edits as diffs; a whiteboard for sketches, shapes and note cards that can become a mind map grown from your notes.
-- 📚 **One Library for everything.** Notes, documents, chats, files, tags and the recycle bin. Every image read three ways: a caption, a vision-model transcription and OCR, all searchable. PDFs, spreadsheets and code imported with their text.
-- 🧭 **Atlas.** An in-app guide that answers "how do I" from the app's own documentation, never from your notes.
-- 🔐 **Private by construction.** Localhost only, no CDN assets, notes in a plain SQLite file, private notes encrypted at rest, web search opt-in and query-only.
-- 🎨 **Designed, not assembled.** One design system enforced by lints; ten themes over colour palettes; responsive from a phone to a desktop; a packaged Windows installer and Linux build.
+- **Your notes as a map.** A force-directed graph coloured by category and linked by meaning; a timeline of everything by when it happened; a dashboard with your streak, digest and widgets.
+- **An agent that acts, and shows its work.** 58 tools to search, link, tag, remind, organise and place cards on a board; every step visible; anything destructive asks first. 20 built-in skills run multi-step jobs as a checklist.
+- **Long-form writing and a canvas.** A Markdown document editor with live view, version history and AI edits as diffs; a whiteboard for sketches, shapes and note cards that can become a mind map grown from your notes.
+- **One Library for everything.** Notes, documents, chats, files, tags and the recycle bin. Every image read three ways: a caption, a vision-model transcription and OCR, all searchable. PDFs, spreadsheets and code imported with their text.
+- **Atlas.** An in-app guide that answers "how do I" from the app's own documentation, never from your notes.
+- **Private by construction.** Localhost only, no CDN assets, notes in a plain SQLite file, private notes encrypted at rest, web search opt-in and query-only.
+- **Designed, not assembled.** One design system enforced by lints; ten themes over colour palettes; responsive from a phone to a desktop; a packaged Windows installer and Linux build.
 
 <details>
 <summary><b>Under the hood</b></summary>
@@ -157,9 +157,9 @@ A specialised AI agent for turning rough ideas into production-ready prompts - r
 
 ### *(Upcoming - University)*
 
-- **🗞️ News Accuracy Checker** - Python tool for evaluating factual accuracy of news articles
-- **🏥 Hospital Management System** - C# system covering patient management, scheduling, and admin workflows
-- **🌐 Personal Portfolio** - p5.js creative graphics + photography + design work
+- **News Accuracy Checker** - Python tool for evaluating factual accuracy of news articles
+- **Hospital Management System** - C# system covering patient management, scheduling, and admin workflows
+- **Personal Portfolio** - p5.js creative graphics + photography + design work
 
 ---
 
@@ -269,7 +269,7 @@ Year 12 Graduate · Mathematical Methods · Digital Solutions · Design · Film,
 
 ---
 
-## 🔐 Other
+## Other
 
 - Completed a national **Cyber Security Work Experience Program** (2023) - selected alongside participants from across Australia
 - Member: **AISA** (Australian Information Security Association) · **ACS** (Australian Computer Society)
