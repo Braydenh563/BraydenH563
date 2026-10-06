@@ -55,7 +55,7 @@ Type a thought and a local model files it, tags it and links it to what you alre
 
 **Engineering:** 9,000+ offline tests with every AI call faked · 49 end-to-end Playwright tests of the real flows on every push · interface sweeps that measure contrast, touch targets and layout at four widths in both themes · CodeQL on every push · a Windows installer that CI builds, installs, upgrades and uninstalls before release
 
-**AI-assisted, human-owned.** Built with Claude Code over ~1,800 commits. I own the product, the design decisions and the bar: nothing ships until the tests and measurements say so.
+**AI-assisted, human-owned.** Built with Claude Code over ~6,600 commits. I own the product, the design decisions and the bar: nothing ships until the tests and measurements say so.
 
 </details>
 
