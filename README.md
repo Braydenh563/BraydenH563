@@ -24,26 +24,26 @@ I design and build software people actually want to use: local-first AI tools, i
 
 ## Featured work
 
-### [MemoryMap AI](https://github.com/Braydenh563/MemoryMap-AI)
+### [Tessellate](https://github.com/Braydenh563/Tessellate)
 
 **A notebook that files itself. Local AI, your machine, nothing sent anywhere.**
 
-[![Latest release](https://img.shields.io/github/v/release/Braydenh563/MemoryMap-AI?style=flat-square&label=release)](https://github.com/Braydenh563/MemoryMap-AI/releases/latest)
-[![CI](https://github.com/Braydenh563/MemoryMap-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/Braydenh563/MemoryMap-AI/actions/workflows/ci.yml)
-[![Tests](https://img.shields.io/badge/tests-9%2C000%2B-2ea44f?style=flat-square)](https://github.com/Braydenh563/MemoryMap-AI/tree/main/tests)
-[![Offline](https://img.shields.io/badge/runs-100%25%20offline-111827?style=flat-square)](https://github.com/Braydenh563/MemoryMap-AI#privacy)
-[![Website](https://img.shields.io/badge/website-memorymap-4c8bf5?style=flat-square)](https://braydenh563.github.io/MemoryMap-AI/)
+[![Latest release](https://img.shields.io/github/v/release/Braydenh563/Tessellate?style=flat-square&label=release)](https://github.com/Braydenh563/Tessellate/releases/latest)
+[![CI](https://github.com/Braydenh563/Tessellate/actions/workflows/ci.yml/badge.svg)](https://github.com/Braydenh563/Tessellate/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/tests-27%2C000%2B-2ea44f?style=flat-square)](https://github.com/Braydenh563/Tessellate/tree/main/tests)
+[![Offline](https://img.shields.io/badge/runs-100%25%20offline-111827?style=flat-square)](https://github.com/Braydenh563/Tessellate#privacy)
+[![Website](https://img.shields.io/badge/website-tessellate-4c8bf5?style=flat-square)](https://braydenh563.github.io/Tessellate/)
 
-<a href="https://github.com/Braydenh563/MemoryMap-AI">
-<img src="https://raw.githubusercontent.com/Braydenh563/MemoryMap-AI/main/docs/screenshots/graph.png" width="760" alt="MemoryMap AI's graph view: notes drawn as a map, coloured by category and linked by meaning" />
+<a href="https://github.com/Braydenh563/Tessellate">
+<img src="https://raw.githubusercontent.com/Braydenh563/Tessellate/main/docs/screenshots/graph.png" width="760" alt="Tessellate's graph view: notes drawn as a map, coloured by category and linked by meaning" />
 </a>
 
-Type a thought and a local model files it, tags it and links it to what you already wrote. Ask a question later and get an answer with every sentence cited to the note it came from. It runs entirely on your machine: no account, no cloud, no telemetry, and it still works with no model installed.
+Type a thought and a local model files it, tags it and links it to what you already wrote. Ask a question later and get an answer with every sentence cited to the note it came from. It runs entirely on your machine: no account, no cloud, no telemetry, and it still answers from your notes with no model installed.
 
 - **Files itself, honestly.** A category, tags and links for every note, with a certainty that never claims 100%.
 - **Answers you can check.** Ask in plain English; each sentence links to its source note.
-- **An agent that shows its work.** 65 tools and 21 multi-step skills, every step visible, anything destructive asks first.
-- **More than notes.** A document editor, whiteboards, mind maps, a knowledge graph, a timeline and reminders in one app.
+- **An agent that shows its work.** Tools and multi-step skills, every step visible, anything destructive asks first.
+- **More than notes.** A document editor, whiteboards, mind maps, a knowledge graph, a timeline, reminders and a focus timer in one app.
 - **Private by construction.** One SQLite file, encrypted private notes, HTTPS for other devices, and no network use until you allow it.
 
 <details>
@@ -53,9 +53,9 @@ Type a thought and a local model files it, tags it and links it to what you alre
 
 **Stack:** Python · FastAPI · SQLAlchemy · SQLite · vanilla JavaScript (no framework, no build step) · CodeMirror 6 · D3 · Ollama or any OpenAI-compatible local server · local Whisper and OCR
 
-**Engineering:** 9,000+ offline tests with every AI call faked · 49 end-to-end Playwright tests of the real flows on every push · interface sweeps that measure contrast, touch targets and layout at four widths in both themes · CodeQL on every push · a Windows installer that CI builds, installs, upgrades and uninstalls before release
+**Engineering:** 27,000+ offline tests with every AI call faked · end-to-end Playwright tests of the real flows on every push · interface sweeps that measure contrast, touch targets and layout in both themes · CodeQL on every push · a Windows installer that CI builds, installs, upgrades and uninstalls before release
 
-**AI-assisted, human-owned.** Built with Claude Code over ~6,600 commits. I own the product, the design decisions and the bar: nothing ships until the tests and measurements say so.
+**AI-assisted, human-owned.** Built with Claude Code. I own the product, the design decisions and the bar: nothing ships until the tests and measurements say so.
 
 </details>
 
