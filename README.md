@@ -2,190 +2,141 @@
 
 # Brayden Hoyle
 
-**Computer Science + Interaction Design at QUT · Brisbane, Australia**
+Computer Science + Interaction Design at QUT · Brisbane, Australia
 
-I design and build software people actually want to use: local-first AI tools, interactive simulations and creative-coding work.
+I build interactive software, simulations and local AI tools,<br>and I care about how they feel to use as much as how they work.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Brayden%20Hoyle-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/braydenh563/)
-[![Photography](https://img.shields.io/badge/Photography-@braydenhphotography-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/braydenhphotography/)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-braydenh563-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/braydenh563)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/braydenh563/)
+[![Instagram](https://img.shields.io/badge/Photography-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/braydenhphotography/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/braydenh563)
 
 </div>
 
----
+<br>
 
-### Right now
-
-- Shipping **MemoryMap AI**, a local-first AI notebook with tested Windows and Linux releases
-- Third year of a double degree: Computer Science and Interaction Design at QUT
-- Open to internships in software engineering, applied AI and product design
-
----
-
-## Featured work
-
-### [Tessellate](https://github.com/Braydenh563/Tessellate)
-
-**A notebook that files itself. Local AI, your machine, nothing sent anywhere.**
-
-[![Latest release](https://img.shields.io/github/v/release/Braydenh563/Tessellate?style=flat-square&label=release)](https://github.com/Braydenh563/Tessellate/releases/latest)
-[![CI](https://github.com/Braydenh563/Tessellate/actions/workflows/ci.yml/badge.svg)](https://github.com/Braydenh563/Tessellate/actions/workflows/ci.yml)
-[![Tests](https://img.shields.io/badge/tests-27%2C000%2B-2ea44f?style=flat-square)](https://github.com/Braydenh563/Tessellate/tree/main/tests)
-[![Offline](https://img.shields.io/badge/runs-100%25%20offline-111827?style=flat-square)](https://github.com/Braydenh563/Tessellate#privacy)
-[![Website](https://img.shields.io/badge/website-tessellate-4c8bf5?style=flat-square)](https://braydenh563.github.io/Tessellate/)
-
-<a href="https://github.com/Braydenh563/Tessellate">
-<img src="https://raw.githubusercontent.com/Braydenh563/Tessellate/main/docs/screenshots/graph.png" width="760" alt="Tessellate's graph view: notes drawn as a map, coloured by category and linked by meaning" />
-</a>
-
-Type a thought and a local model files it, tags it and links it to what you already wrote. Ask a question later and get an answer with every sentence cited to the note it came from. It runs entirely on your machine: no account, no cloud, no telemetry, and it still answers from your notes with no model installed.
-
-- **Files itself, honestly.** A category, tags and links for every note, with a certainty that never claims 100%.
-- **Answers you can check.** Ask in plain English; each sentence links to its source note.
-- **An agent that shows its work.** Tools and multi-step skills, every step visible, anything destructive asks first.
-- **More than notes.** A document editor, whiteboards, mind maps, a knowledge graph, a timeline, reminders and a focus timer in one app.
-- **Private by construction.** One SQLite file, encrypted private notes, HTTPS for other devices, and no network use until you allow it.
-
-<details>
-<summary><b>How it's built</b></summary>
+**Right now:** third year at QUT · working on Tessellate and Snipdeck · looking for internships in software engineering, applied AI or product design
 
 <br>
 
-**Stack:** Python · FastAPI · SQLAlchemy · SQLite · vanilla JavaScript (no framework, no build step) · CodeMirror 6 · D3 · Ollama or any OpenAI-compatible local server · local Whisper and OCR
+## My work
 
-**Engineering:** 27,000+ offline tests with every AI call faked · end-to-end Playwright tests of the real flows on every push · interface sweeps that measure contrast, touch targets and layout in both themes · CodeQL on every push · a Windows installer that CI builds, installs, upgrades and uninstalls before release
-
-**AI-assisted, human-owned.** Built with Claude Code. I own the product, the design decisions and the bar: nothing ships until the tests and measurements say so.
-
-</details>
-
----
-
-### [HELIXLABS](https://github.com/Braydenh563/HELIXLABS): microbiome simulation
-
-[![Live demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://braydenh563.github.io/HELIXLABS/)
-[![Download](https://img.shields.io/badge/download-v1.1.0-blue?style=flat-square)](https://github.com/Braydenh563/HELIXLABS/releases/tag/v1.1.0)
-
-<a href="https://braydenh563.github.io/HELIXLABS/">
-<img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="760" alt="HELIXLABS: organisms in a living petri dish" />
-</a>
-
-Sequence alien proteins into a DNA string, release the organism into a living petri dish, and watch species compete, coexist and evolve in real time. Built in p5.js.
-
-- **Won the DXB211 Tutor's Prize** for Creative Coding at QUT
-- **Exhibited** at QUT's Creative Coding exhibition, The Lanes, Fortitude Valley (July 2026), and at the Queensland Games Festival (June 2026)
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://braydenh563.github.io/HELIXLABS/"><img src="https://raw.githubusercontent.com/Braydenh563/HELIXLABS/main/metadata/HELIXLABS_Thumbnail.png" width="230" alt="HELIXLABS petri dish" /></a>
+<h3><a href="https://github.com/Braydenh563/HELIXLABS">HELIXLABS</a></h3>
+Write a DNA sequence, release the organism into a petri dish, and watch species compete and evolve. p5.js.
+<br><br>
+🏆 DXB211 Tutor's Prize · Exhibited at the Queensland Games Festival
+<br><br>
+<a href="https://braydenh563.github.io/HELIXLABS/"><img src="https://img.shields.io/badge/play-live-brightgreen?style=flat-square" alt="Live demo" /></a>
+<a href="https://github.com/Braydenh563/HELIXLABS/releases/tag/v1.1.0"><img src="https://img.shields.io/badge/download-v1.1.0-blue?style=flat-square" alt="Download" /></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://braydenh563.github.io/golf-on-the-gold-coast/"><img src="https://raw.githubusercontent.com/Braydenh563/golf-on-the-gold-coast/main/images/logo-cropped.png" width="380" alt="Golf on the Gold Coast logo" /></a>
+<h3><a href="https://github.com/Braydenh563/golf-on-the-gold-coast">Golf on the Gold Coast</a></h3>
+An 8-page responsive site that helps teenagers pick a golf course or driving range. Hand-written HTML and CSS, mobile-first, no frameworks.
+<br><br>
+<a href="https://braydenh563.github.io/golf-on-the-gold-coast/"><img src="https://img.shields.io/badge/site-live-4c5b34?style=flat-square" alt="Live site" /></a>
+<a href="https://github.com/Braydenh563/golf-on-the-gold-coast/blob/main/docs/design-rationale.pdf"><img src="https://img.shields.io/badge/design-rationale-edb92b?style=flat-square" alt="Design rationale" /></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<h3><a href="https://chatgpt.com/g/g-68ad0fff3c108191a9b9b05cd2e20584-astraea-prompt-architect">Astraea</a></h3>
+A custom GPT that turns rough ideas into usable prompts for ChatGPT, Claude, Gemini, Midjourney and Sora, backed by a Llama 3.1 8B model I fine-tuned.
+</td>
+<td width="50%" valign="top" align="center">
+<h3><a href="https://github.com/Braydenh563/BH-CreativeCoding">Creative coding</a></h3>
+p5.js experiments with animation, colour, form and interaction, and the start of a portfolio site for my code, photography and design.
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>Features and technical detail</b></summary>
+<summary><b>More detail</b></summary>
 
 <br>
 
-- **Procedural species:** 26 base proteins combine into organisms with distinct traits; behaviour is set entirely by the sequence
-- **Ecosystem simulation:** species interact, compete and coexist with emergent behaviour
-- **Species Index:** an in-game encyclopedia of every species introduced
-- **Adaptive ambient audio:** sound layered from the state of the simulation
-- **Guided onboarding:** tutorial and hint popups, plus a performance overlay
+**HELIXLABS.** Each species' behaviour comes entirely from its sequence of 26 base proteins, and the ecosystem behaviour emerges from how they interact. It has an in-game Species Index, ambient audio layered from the state of the dish, and a tutorial with hints. Also shown at QUT's Creative Coding exhibition at The Lanes, Fortitude Valley (July 2026). *JavaScript · p5.js · p5.sound · GitHub Pages*
 
-| Input | Action |
-|---|---|
-| Type A to Z | Write the DNA sequence |
-| Click the dish | Release your species |
-| Click and drag | Move an organism |
-| Randomise | Generate a surprise sequence |
+**Golf on the Gold Coast.** Built for DXB111 Introduction to Web Design. Semantic HTML, Flexbox, custom properties and mobile-first media queries. The design rationale covers the audience, colour, type and accessibility decisions.
 
-**Stack:** JavaScript · p5.js · p5.sound · GitHub Pages via Actions · Windows and Linux
+**Astraea.** Dual, prompt-only and advice-only modes at three levels, with a deconstruct → diagnose → develop → deliver pipeline, a prompt linter and a QA gate. The model is Llama 3.1 8B Instruct in 4-bit via Unsloth, trained with TRL's SFTTrainer on an A100: LoRA r=64, alpha=128, RSLoRA on all attention and MLP projections, about 2,700 curated examples. It ships as GGUF q4_k_m for llama.cpp, Ollama, Open WebUI and Jan.
 
 </details>
-
----
-
-### [Astraea, prompt architect](https://chatgpt.com/g/g-68ad0fff3c108191a9b9b05cd2e20584-astraea-prompt-architect)
-
-A specialised agent that turns rough ideas into production-ready prompts for ChatGPT, Claude, Gemini, Midjourney, DALL·E and Sora, backed by my own fine-tuned local model.
-
-<details>
-<summary><b>System design and fine-tuning</b></summary>
 
 <br>
 
-- **Modes:** dual, prompt-only and advice-only, across basic, standard and expert tiers
-- **Pipeline:** deconstruct, diagnose, develop, deliver, with a prompt linter, a QA gate, an assumption ledger and a scorecard
-- **Model:** Llama 3.1 8B Instruct, 4-bit via Unsloth, trained with Hugging Face TRL's SFTTrainer on an A100
-- **LoRA:** r=64, alpha=128, RSLoRA on all attention and MLP projections; about 2,700 curated training examples
-- **Deployment:** GGUF q4_k_m for local inference through llama.cpp, Ollama, Open WebUI and Jan
+## Built with Claude Code
+
+Most of the code in these projects was written by Claude Code. I set the direction, design, scope and quality bar, and I review and test what ships.
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Braydenh563/Tessellate"><img src="https://raw.githubusercontent.com/Braydenh563/Tessellate/main/docs/screenshots/notes.png" width="380" alt="Tessellate notes view" /></a>
+<h3><img src="https://raw.githubusercontent.com/Braydenh563/Tessellate/main/frontend/icon-512.png" height="20" alt="" /> <a href="https://github.com/Braydenh563/Tessellate">Tessellate</a></h3>
+A notebook that uses a local AI model to file, tag and link every note, and answers questions with citations. No account, no cloud. In beta.
+<br><br>
+<a href="https://github.com/Braydenh563/Tessellate/releases/latest"><img src="https://img.shields.io/github/v/release/Braydenh563/Tessellate?style=flat-square&label=release" alt="Latest release" /></a>
+<a href="https://github.com/Braydenh563/Tessellate/tree/main/tests"><img src="https://img.shields.io/badge/tests-10%2C200%2B-2ea44f?style=flat-square" alt="Tests" /></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Braydenh563/Snipdeck"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Braydenh563/Snipdeck/main/docs/images/panel-dark.png"><img src="https://raw.githubusercontent.com/Braydenh563/Snipdeck/main/docs/images/panel-light.png" width="136" alt="Snipdeck panel" /></picture></a>
+<h3><img src="https://raw.githubusercontent.com/Braydenh563/Snipdeck/main/assets/logo/snipdeck-icon.svg" height="20" alt="" /> <a href="https://github.com/Braydenh563/Snipdeck">Snipdeck</a></h3>
+A snippet panel for Windows: click an item and it's pasted into the app you were typing in. Rust and Slint. In progress.
+<br><br>
+<a href="https://github.com/Braydenh563/Snipdeck/actions/workflows/ci.yml"><img src="https://github.com/Braydenh563/Snipdeck/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<a href="https://github.com/Braydenh563/lean-workflow"><img src="https://raw.githubusercontent.com/Braydenh563/lean-workflow/main/assets/mark.svg" height="56" alt="lean-workflow logo" /></a>
+<h3><a href="https://github.com/Braydenh563/lean-workflow">lean-workflow</a></h3>
+A Claude Code plugin that cuts token use without skipping checks. It blocks expensive habits as they happen,<br>shows usage limits in the status line, and changes its own rules only when the numbers back it.
+<br><br>
+<a href="https://github.com/Braydenh563/lean-workflow/actions/workflows/ci.yml"><img src="https://github.com/Braydenh563/lean-workflow/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+<img src="https://img.shields.io/badge/Claude%20Code-plugin-D97757?style=flat-square" alt="Claude Code plugin" />
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>More detail</b></summary>
+
+<br>
+
+**Tessellate.** Notes, documents, whiteboards, mind maps, a knowledge graph, a timeline and reminders in one app. It imports from Notion, Obsidian, Evernote, Apple Notes, PDFs and Word files, and does Whisper transcription and OCR locally. Everything lives in one SQLite file, with encrypted private notes. It has 10,200+ offline tests with every AI call faked, Playwright end-to-end tests, CodeQL and performance checks in CI, and a Windows installer that CI installs, upgrades and uninstalls before each release. Formerly MemoryMap AI. *Python · FastAPI · SQLite · vanilla JS · D3 · Ollama*
+
+**Snipdeck.** SQLite and FTS5 storage, a template engine, XChaCha20 encryption for sensitive items, and importers from Ditto and CopyQ. The core library is tested in CI; the Windows layer still has to be tested on real Windows machines.
+
+**lean-workflow.** Guards against whole-file reads of huge files, repeated failing calls and agents with no model named. It adds a code map and start-of-session script, one command for the repo's checks, and an end-of-session retro. It grew out of the rules I use daily on Tessellate.
 
 </details>
 
----
-
-### [Creative coding](https://github.com/Braydenh563/BH-CreativeCoding)
-
-Generative and interactive experiments in p5.js: animation, colour, form and interaction. The groundwork for a portfolio site that brings code, photography and design together.
-
-**Next up:** a news accuracy checker (Python) · a hospital management system (C#) · the portfolio site
-
----
+<br>
 
 ## Toolkit
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
-![p5.js](https://img.shields.io/badge/p5.js-ED225D?style=flat-square&logo=p5dotjs&logoColor=white)
-![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=flat-square&logoColor=white)
+<p align="center">
+<img src="https://skillicons.dev/icons?i=py,js,cs,java,c,mysql,html,css,pytorch,fastapi,sqlite,githubactions,linux,raspberrypi,figma,ps,ai,pr&perline=9" alt="Python, JavaScript, C#, Java, C, SQL, HTML, CSS, PyTorch, FastAPI, SQLite, GitHub Actions, Linux, Raspberry Pi, Figma, Photoshop, Illustrator, Premiere Pro" />
+</p>
 
-**AI and ML**
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white)
-![Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black)
-![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logoColor=white)
-<br><sub>LoRA and SFT fine-tuning · GGUF quantisation · local LLM deployment · agentic workflows · evaluation-driven AI engineering</sub>
-
-**Backend and tooling**
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-![Salesforce](https://img.shields.io/badge/Salesforce%20Flows-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
-
-**Design**
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white)
-![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white)
-![InDesign](https://img.shields.io/badge/InDesign-FF3366?style=flat-square&logo=adobeindesign&logoColor=white)
-![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-9999FF?style=flat-square&logo=adobepremierepro&logoColor=white)
-<br><sub>Photography on a Canon EOS R50: landscape, street and portrait · <a href="https://www.instagram.com/braydenhphotography/">@braydenhphotography</a></sub>
-
----
+<p align="center"><sub>Also p5.js · VB.NET · Assembly · Hugging Face · Ollama · Colab · Claude Code · Playwright · Salesforce Flows · InDesign<br>LoRA and SFT fine-tuning · GGUF quantisation · running LLMs locally<br>Photography on a Canon EOS R50 · <a href="https://www.instagram.com/braydenhphotography/">@braydenhphotography</a></sub></p>
 
 ## Recognition
 
-| | | |
-|---|---|---|
-| Executive Dean's Commendation for Academic Excellence | QUT, Faculty of Creative Industries, Education and Social Justice | 2026 |
-| DXB211 Creative Coding Tutor's Prize | QUT, Bachelor of Interaction Design | 2026 |
-| Executive Dean's Commendation for Academic Excellence | QUT, Faculty of Science | 2024 |
-| Duke of Edinburgh Silver Award | Duke of Edinburgh's International Award | 2023 |
-| Duke of Edinburgh Bronze Award | Duke of Edinburgh's International Award | 2021 |
-
-Selected for a national **Cyber Security Work Experience Program** (2023) · Member of **AISA** and the **ACS**
-
-**Work:** Associate, Topgolf Gold Coast (June 2024 to present)
-
----
+- **Executive Dean's Commendation for Academic Excellence** · QUT Faculty of Creative Industries, Education and Social Justice · 2026
+- **DXB211 Creative Coding Tutor's Prize** · QUT · 2026
+- **Executive Dean's Commendation for Academic Excellence** · QUT Faculty of Science · 2024
+- **Duke of Edinburgh** Silver (2023) and Bronze (2021)
+- Selected for a national **Cyber Security Work Experience Program** · 2023
+- Member of **AISA** and the **ACS**
 
 ## Education
 
-**Queensland University of Technology** · 2024 to 2027
+**Queensland University of Technology** · 2024 to 2027<br>
 Bachelor of Information Technology (Computer Science) / Bachelor of Design (Interaction Design)
 
 <details>
@@ -222,15 +173,12 @@ Bachelor of Information Technology (Computer Science) / Bachelor of Design (Inte
 
 </details>
 
-**Coomera Anglican College** · Graduated 2023
-Mathematical Methods · Digital Solutions · Design · Film, TV and New Media · Chemistry
-
----
+<br>
 
 <div align="center">
 
-**Open to internships and collaborations in software, applied AI and design.**
+**Looking for internships and collaborations in software, applied AI and design.**
 
-[![Let's connect](https://img.shields.io/badge/Let's%20connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/braydenh563/)
+[![LinkedIn](https://img.shields.io/badge/Get%20in%20touch-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/braydenh563/)
 
 </div>
